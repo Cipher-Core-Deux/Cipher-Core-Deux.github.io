@@ -1,5 +1,5 @@
 
-function test() {
+function flipCard1() {
     var affiche = document.getElementById("divAffiche");
     card = "hello";
     //source = https://www.w3schools.com/JSREF/prop_pushbutton_value.asp
