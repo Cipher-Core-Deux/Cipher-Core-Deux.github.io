@@ -1,5 +1,5 @@
 
 function test() {
     affiche = document.getElementById("divAffiche");
-    affiche.innerHTML = hello
+    affiche.innerHTML = "hello"
 }
