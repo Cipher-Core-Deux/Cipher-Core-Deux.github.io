@@ -4,6 +4,6 @@ function test() {
     card = "hello"
     console.log = "hello"
     x = 1
-    return x
     affiche.innerHTML = card
+    return x
 }
