@@ -3,7 +3,7 @@ let cardValueJeu = [""];
 function randomizer() {
     let j;
     for (let i=0; i<36; i++) {
-        j = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
+        j = parseInt(Math.floor(Math.random() * cardValue.length))
         console.log(j + " " + cardValue[j] )
         cardValueJeu[i] = cardValue[j]
          console.log(cardValue.toString())
