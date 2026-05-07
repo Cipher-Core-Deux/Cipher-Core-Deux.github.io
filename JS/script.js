@@ -40,9 +40,9 @@ function randomizer() {
     let i = parseInt(Math.floor(Math.random() * 36) + 1)
     console.log(i)
     card1Value = cardValue[i]
-    let i = parseInt(Math.floor(Math.random() * 36) + 1)
+    i = parseInt(Math.floor(Math.random() * 36) + 1)
     card2Value = cardValue[i]
-    let i = parseInt(Math.floor(Math.random() * 36) + 1)
+    i = parseInt(Math.floor(Math.random() * 36) + 1)
     card3Value = cardValue[i]
     i = parseInt(Math.floor(Math.random() * 36) + 1)
     card4Value = cardValue[i]
