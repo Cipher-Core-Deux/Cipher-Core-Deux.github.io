@@ -6,6 +6,8 @@ function randomizer() {
         j = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
         console.log(j + " " + cardValue[j] )
         cardValueJeu[i] = cardValue[j]
+         console.log(cardValue.toString())
+         console.log(cardValueJeu.toString() )
         cardValue.splice(j, 1) 
     }
     
