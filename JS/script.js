@@ -37,79 +37,115 @@ var card34Value = 0
 var card35Value = 0
 var card36Value = 0
 function randomizer() {
-    let i = parseInt(Math.floor(Math.random() * 36) + 1)
+    let i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     console.log(i)
     card1Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card2Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card3Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card4Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card5Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card6Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card7Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card8Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card9Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card10Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card11Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card12Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card13Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card14Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card15Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card16Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card17Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card18Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card19Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card20Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card21Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card22Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card23Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card24Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card25Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card26Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card27Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card28Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card29Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card30Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card31Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card32Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card33Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card34Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card35Value = cardValue[i]
-    i = parseInt(Math.floor(Math.random() * 36) + 1)
+    cardValue[i].pop
+    i = parseInt(Math.floor(Math.random() * cardValue.length) + 1)
     card36Value = cardValue[i]
+    cardValue[i].pop
 }
 function flipCard1() {
     //source = https://www.w3schools.com/JSREF/prop_pushbutton_value.asp
