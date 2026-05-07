@@ -78,7 +78,7 @@ function randomizer() {
 }
 function flipCard1() {
     //source = https://www.w3schools.com/JSREF/prop_pushbutton_value.asp
-    document.getElementById("card1").value = card1value
+    document.getElementById("card1").value = card1Value
 }
 function flipCard2() {
     document.getElementById("card2").value = card2Value
