@@ -3,7 +3,7 @@
   display: block;
   text-decoration: none;
   color: inherit;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(82, 75, 177, 0.25);
   border-radius: 15px;
   padding: 20px;
   transition: background 0.3s;
