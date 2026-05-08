@@ -3,9 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <title>Projet - π</title>
-        <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="stylesheet" href="styles.css">
         <link rel="icon" type="image/x-icon" href="Images/E-Claque-Logo-Seul.png">
         <style>
+        .right {
+          float: right;
+          width: 44%;
+        }
+        .left {
+          float: left;
+          width: 44%;
+        }
           body {
             background-color: #ffffff;
             color: #000000;
@@ -27,11 +35,11 @@
     <body>
       
       <div>
-        <h1>E-Claque</h1>
+        <h1><img src="Images/E-Claque-Logo"></h1>
       </div>
       <h3>Choisis un sujet</h3>
       <center>
-        <a href="math.html" class="clickable-box">
+        <a href="math.html" class="clickable-box left">
           <div class="flex-container">
             <img src="Images/math.jpg" height="175px">
             <h3>Mathématiques</h3>
@@ -39,7 +47,7 @@
         </a>
       </center>
       <center>
-        <a href="chem.html" class="clickable-box">
+        <a href="chem.html" class="clickable-box right">
           <div class="flex-container">
             <img src="Images/chem.jpg" height="175px">
             <h3>Chimie</h3>
@@ -47,7 +55,7 @@
         </a>
       </center>
       <center>
-        <a href="phys.html" class="clickable-box">
+        <a href="phys.html" class="clickable-box left">
           <div class="flex-container">
             <img src="Images/phys.jpg" height="175px">
             <h3>Physiques</h3>
@@ -55,7 +63,7 @@
         </a>
       </center>
       <center>
-        <a href="mixed.html" class="clickable-box">
+        <a href="mixed.html" class="clickable-box right">
           <div class="flex-container">
             <img src="Images/mixed.jpeg" height="175px">
             <h3>Sujet Mixed</h3>
