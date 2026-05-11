@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Projet - π</title>
+      <style>
+      
+      #navigateur {
+        
+          background-color: #524BB1;
+          border-radius: 15px 15px 0 0;
+          color: #ffffff;
+          height: 125px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+      }
+      
+       #navigateur button:hover {
+        
+        background-color: #111111;
+        
+          
+      }
+      
+      #navigateur button{
+        
+        border-style: none;
+        height: 100px;
+        
+        background-color: #524BB1;
+        
+        font-size: 20px;
+        
+        color:white;
+        
+      }
+      
+      
+      #Links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 300px;
+      
+      }
+      
+      
+      #Logo {
+        display: flex;
+        float: left;
+      }
+      
+      .BoxContainer {
+        margin-top: 30px;
+        border-style: solid;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        border-color: grey;
+        border-width: 1px;
+      }
+      
+      #Titre {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 50px;
+        color: grey;
+      }
+      
+      
+      .TitreÉtape {
+        color: #000000;
+      }
+      
+      .InstructionÉtape {
+        color: #555555;
+      }
+      
+      </style>
+    </head>
+    
+    <body>
+      
+
+      <nav id = 'navigateur'>
+        
+          <img id = 'Logo' src="Images/E-Claque-Logo">
+          
+          <div id = 'Links'> 
+          
+          <button href = 'index.html'> Accueil </button>
+          
+          <button href = 'tutoriel.html'> Tutoriel </button>
+          
+          </div>
+        
+      </nav>
+      
+     <h1 id = 'Titre'> Tutoriel </h1>
+     
+     <hr>
+
+      
+      
+      <div class = 'BoxContainer'> 
+      
+            <h3 class = 'TitreÉtape'>  Étape 1 - Choisie ta matière </h3>
+            <h3 class = 'InstructionÉtape'> Le joueur choisit entre les mathématiques, la physique et la chimie, puis précise son choix en se concentrant sur un concept spécifique, comme la deuxième loi de Newton ou les équations du second degré. </h3>
+      
+      </div>
+      
+       <div class = 'BoxContainer'> 
+      
+            <h3 class = 'TitreÉtape'>Étape 2 - Lire la page du concept </h3>
+            <h3 class = 'InstructionÉtape'>Avant l'apparition des cartes, une courte leçon présente la formule ou la règle à l'aide d'un exemple concret. Cela permet de préparer le joueur avant le début de la partie. </h3>
+      
+      </div>
+      
+       <div class = 'BoxContainer'> 
+      
+            <h3 class = 'TitreÉtape'> Étape 3 - Associer les cartes </h3>
+            <h3 class = 'InstructionÉtape'> Le principe du jeu est expliqué : retourner deux cartes à la fois et trouver la paire correspondante. Les paires peuvent être : terme ↔ définition, formule ↔ nom ou élément ↔ symbole, selon le sujet. </h3>
+      
+      </div>
+      
+      
+    </body>
+</html>
