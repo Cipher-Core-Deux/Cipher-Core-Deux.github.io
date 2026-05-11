@@ -25,107 +25,107 @@ function flipCard1() {
     }
 }
 function flipCard2() {
-    document.getElementById("card2").value = cardValueJeu[1]
+    document.getElementById("card2").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard3() {
-    document.getElementById("card3").value = cardValueJeu[2]
+    document.getElementById("card3").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard4() {
-    document.getElementById("card4").value = cardValueJeu[3]
+    document.getElementById("card4").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard5() {
-    document.getElementById("card5").value = cardValueJeu[4]
+    document.getElementById("card5").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard6() {
-    document.getElementById("card6").value = cardValueJeu[5]
+    document.getElementById("card6").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard7() {
-    document.getElementById("card7").value = cardValueJeu[6]
+    document.getElementById("card7").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard8() {
-    document.getElementById("card8").value = cardValueJeu[7]
+    document.getElementById("card8").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard9() {
-    document.getElementById("card9").value = cardValueJeu[8]
+    document.getElementById("card9").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard10() {
-    document.getElementById("card10").value = cardValueJeu[9]
+    document.getElementById("card10").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard11() {
-    document.getElementById("card11").value = cardValueJeu[10]
+    document.getElementById("card11").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard12() {
-    document.getElementById("card12").value = cardValueJeu[11]
+    document.getElementById("card12").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard13() {
-    document.getElementById("card13").value = cardValueJeu[12]
+    document.getElementById("card13").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard14() {
-    document.getElementById("card14").value = cardValueJeu[13]
+    document.getElementById("card14").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard15() {
-    document.getElementById("card15").value = cardValueJeu[14]
+    document.getElementById("card15").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard16() {
-    document.getElementById("card16").value = cardValueJeu[15]
+    document.getElementById("card16").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard17() {
-    document.getElementById("card17").value = cardValueJeu[16]
+    document.getElementById("card17").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard18() {
-    document.getElementById("card18").value = cardValueJeu[17]
+    document.getElementById("card18").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard19() {
-    document.getElementById("card19").value = cardValueJeu[18]
+    document.getElementById("card19").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard20() {
-    document.getElementById("card20").value = cardValueJeu[19]
+    document.getElementById("card20").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard21() {
-    document.getElementById("card21").value = cardValueJeu[20]
+    document.getElementById("card21").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard22() {
-    document.getElementById("card22").value = cardValueJeu[21]
+    document.getElementById("card22").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard23() {
-    document.getElementById("card23").value = cardValueJeu[22]
+    document.getElementById("card23").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard24() {
-    document.getElementById("card24").value = cardValueJeu[23]
+    document.getElementById("card24").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard25() {
-    document.getElementById("card25").value = cardValueJeu[24]
+    document.getElementById("card25").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard26() {
-    document.getElementById("card26").value = cardValueJeu[25]
+    document.getElementById("card26").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard27() {
-    document.getElementById("card27").value = cardValueJeu[26]
+    document.getElementById("card27").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard28() {
-    document.getElementById("card28").value = cardValueJeu[27]
+    document.getElementById("card28").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard29() {
-    document.getElementById("card29").value = cardValueJeu[28]
+    document.getElementById("card29").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard30() {
-    document.getElementById("card30").value = cardValueJeu[29]
+    document.getElementById("card30").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard31() {
-    document.getElementById("card31").value = cardValueJeu[30]
+    document.getElementById("card31").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard32() {
-    document.getElementById("card32").value = cardValueJeu[31]
+    document.getElementById("card32").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard33() {
-    document.getElementById("card33").value = cardValueJeu[32]
+    document.getElementById("card33").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard34() {
-    document.getElementById("card34").value = cardValueJeu[33]
+    document.getElementById("card34").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard35() {
-    document.getElementById("card35").value = cardValueJeu[34]
+    document.getElementById("card35").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
 function flipCard36() {
-    document.getElementById("card36").value = cardValueJeu[35]
+    document.getElementById("card36").src = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
 }
