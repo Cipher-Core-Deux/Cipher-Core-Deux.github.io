@@ -15,7 +15,7 @@ function randomizer() {
 }
 function flipCard1() {
     //source = https://www.w3schools.com/JSREF/prop_pushbutton_value.asp
-    document.getElementById("card1").scr = cardValueJeu[0]
+    document.getElementById("card1").scr = "https://i.guim.co.uk/img/media/1c13aa9da64039bfa343cf4ffeef49abfd2e1d61/0_273_4096_2459/4096.jpg?width=460&quality=85&auto=format&fit=max&s=8e6bc56cdf7979fc65a148e355843651"
     for (let i = 0; i < cardValue.length; i++) {
         if (i%2 != 0) {
             if (cardValueJeu[0] == cardValue[i]) {
