@@ -6,12 +6,11 @@
   border: 1px solid rgba(82, 75, 177, 0.25);
   border-radius: 15px;
   padding: 20px;
-  transition: background 0.3s;
+  transition: box-shadow 0.3s;
 }
 .clickable-box:hover {
   background-color: #f0f0f0;
   cursor: pointer;
-  transition: box-shadow 1s;
   box-shadow: 2px 2px #888888;
 }
 
