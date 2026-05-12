@@ -31,3 +31,11 @@
 .Links a:hover {
     background-color: #111111;
 }
+
+ hr {
+width: 80%;
+ border: none;
+height: 2px;
+background-color: #524BB1;
+ margin-bottom: 30px;
+}
