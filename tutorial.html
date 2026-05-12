@@ -1,132 +1,135 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Projet - π</title>
-      <style>
-      
-      #navigateur {
-        
-          background-color: #524BB1;
-          border-radius: 15px 15px 0 0;
-          color: #ffffff;
-          height: 125px;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-      }
-      
-       #navigateur button:hover {
-        
-        background-color: #111111;
-        
-          
-      }
-      
-      #navigateur button{
-        
-        border-style: none;
-        height: 100px;
-        
-        background-color: #524BB1;
-        
-        font-size: 20px;
-        
-        color:white;
-        
-      }
-      
-      
-      #Links {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 300px;
-      
-      }
-      
-      
-      #Logo {
-        display: flex;
-        float: left;
-      }
-      
-      .BoxContainer {
-        margin-top: 30px;
-        border-style: solid;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        border-color: grey;
-        border-width: 1px;
-      }
-      
-      #Titre {
-        margin-top: 20px;
-        text-align: center;
-        font-size: 50px;
-        color: grey;
-      }
-      
-      
-      .TitreÉtape {
-        color: #000000;
-      }
-      
-      .InstructionÉtape {
-        color: #555555;
-      }
-      
-      </style>
-    </head>
-    
-    <body>
-      
+<head>
+    <meta charset="UTF-8">
+    <title>Projet - π</title>
 
-      <nav id = 'navigateur'>
-        
-          <img id = 'Logo' src="Images/E-Claque-Logo">
-          
-          <div id = 'Links'> 
-          
-          <button href = 'index.html'> Accueil </button>
-          
-          <button href = 'tutoriel.html'> Tutoriel </button>
-          
-          </div>
-        
-      </nav>
-      
-     <h1 id = 'Titre'> Tutoriel </h1>
-     
-     <hr>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f8;
+            color: #333333;
+        }
 
-      
-      
-      <div class = 'BoxContainer'> 
-      
-            <h3 class = 'TitreÉtape'>  Étape 1 - Choisie ta matière </h3>
-            <h3 class = 'InstructionÉtape'> Le joueur choisit entre les mathématiques, la physique et la chimie, puis précise son choix en se concentrant sur un concept spécifique, comme la deuxième loi de Newton ou les équations du second degré. </h3>
-      
-      </div>
-      
-       <div class = 'BoxContainer'> 
-      
-            <h3 class = 'TitreÉtape'>Étape 2 - Lire la page du concept </h3>
-            <h3 class = 'InstructionÉtape'>Avant l'apparition des cartes, une courte leçon présente la formule ou la règle à l'aide d'un exemple concret. Cela permet de préparer le joueur avant le début de la partie. </h3>
-      
-      </div>
-      
-       <div class = 'BoxContainer'> 
-      
-            <h3 class = 'TitreÉtape'> Étape 3 - Associer les cartes </h3>
-            <h3 class = 'InstructionÉtape'> Le principe du jeu est expliqué : retourner deux cartes à la fois et trouver la paire correspondante. Les paires peuvent être : terme ↔ définition, formule ↔ nom ou élément ↔ symbole, selon le sujet. </h3>
-      
-      </div>
-      
-      
-    </body>
+        #navigateur {
+            background-color: #524BB1;
+            border-radius: 15px 15px 0 0;
+            color: white;
+            height: 125px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+        }
+
+        #Logo {
+            height: 90px;
+        }
+
+        #Links {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+        #Links a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding: 15px 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        #Links a:hover {
+            background-color: #111111;
+        }
+
+        #Titre {
+            margin-top: 35px;
+            text-align: center;
+            font-size: 50px;
+            color: #524BB1;
+        }
+
+        hr {
+            width: 80%;
+            border: none;
+            height: 2px;
+            background-color: #524BB1;
+            margin-bottom: 30px;
+        }
+
+        .BoxContainer {
+            width: 80%;
+            margin: 25px auto;
+            padding: 25px;
+            border: 1px solid #cccccc;
+            border-radius: 20px;
+            background-color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .TitreÉtape {
+            color: #524BB1;
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        .InstructionÉtape {
+            color: #555555;
+            font-size: 18px;
+            line-height: 1.6;
+            font-weight: normal;
+        }
+
+        .BoxContainer:hover {
+            transform: scale(1.02);
+            transition: 0.3s;
+            border-color: #524BB1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav id="navigateur">
+
+        <img id="Logo" src="Images/E-Claque-Logo.png" alt="Logo E-Claque">
+
+        <div id="Links"> 
+            <a href="index.html">Accueil</a>
+            <a href="tutoriel.html">Tutoriel</a>
+        </div>
+
+    </nav>
+
+    <h1 id="Titre">Tutoriel</h1>
+
+    <hr>
+
+    <div class="BoxContainer"> 
+        <h3 class="TitreÉtape">Étape 1 - Choisis ta matière</h3>
+        <h3 class="InstructionÉtape">
+            Le joueur choisit entre les mathématiques, la physique et la chimie, puis précise son choix en se concentrant sur un concept spécifique, comme la deuxième loi de Newton ou les équations du second degré.
+        </h3>
+    </div>
+
+    <div class="BoxContainer"> 
+        <h3 class="TitreÉtape">Étape 2 - Lire la page du concept</h3>
+        <h3 class="InstructionÉtape">
+            Avant l'apparition des cartes, une courte leçon présente la formule ou la règle à l'aide d'un exemple concret. Cela permet de préparer le joueur avant le début de la partie.
+        </h3>
+    </div>
+
+    <div class="BoxContainer"> 
+        <h3 class="TitreÉtape">Étape 3 - Associer les cartes</h3>
+        <h3 class="InstructionÉtape">
+            Le principe du jeu est expliqué : retourner deux cartes à la fois et trouver la paire correspondante. Les paires peuvent être : terme ↔ définition, formule ↔ nom ou élément ↔ symbole, selon le sujet.
+        </h3>
+    </div>
+
+</body>
 </html>
