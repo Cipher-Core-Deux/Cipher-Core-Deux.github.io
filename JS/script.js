@@ -1,5 +1,5 @@
 let cardValue = ["Résous : 2x+7=19", "Réponse : 6", "Factorise : x²-9", "Réponse : (x-3)(x+3)", "Résous : x²-16=0", "x=±4", "Simplifie : (3x^2)(2x^3)", "Réponse : 6x^5", "Quelle est la pente de la droite passant par (2,3) et (6,11) ?", "Réponse : 2", "Développe : (x+5)(x-2)", "Réponse : x^2+3x-10", "Résous : 3(x-4)=18", "Réponse : 10", "Quel est le sommet de y=(x-2)^2+5 ?", "Réponse : (2,5)", "Simplifie : 12x^2/3x", "Réponse : 4x", "Résous : sqrt(x+1)=5", "Réponse : 24", "Factorise : x^2+7x+12", "Réponse : (x+3)(x+4)", "Quelle est la valeur de sin(30∘) ?", "Réponse : 1/2", "Convertis 0.625 en fraction.", "Réponse : 5/8", "Résous : 5x-12=3", "Réponse : 3", "Développe : (2x-1)^2", "Réponse : 4x^2-4x+1", "Calcule : 3^4", "Réponse : 81", "Simplifie : sqrt(72)", "Réponse : 6sqrt(2)", "Quelle est l'équation d'un cercle centré à l'origine avec un rayon de 5 ?", "Réponse : x^2+y^2=25"]
-let cardValueJeu = ["../Images/cardFrontBlank.png"];
+let cardValueJeu = [""];
 function randomizer() {
     let j;
     cardValueJeu = [""];
@@ -15,7 +15,7 @@ function randomizer() {
 }
 function flipCard1() {
     //source = https://www.w3schools.com/JSREF/prop_pushbutton_value.asp
-    document.getElementById("card1").src = cardValueJeu[1]
+    document.getElementById("card1").src = "../Images/cardFrontBlank.png"
     for (let i = 0; i < cardValue.length; i++) {
         if (i%2 != 0) {
             if (cardValueJeu[0] == cardValue[i]) {
