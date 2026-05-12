@@ -26,7 +26,8 @@ function flipCard1() {
 }
 function flipCard2() {
     document.getElementById("card2").src = "../Images/cardFrontBlank.png"
-    document.getElementById("card2").value = cardValueJeu[2]
+    affiche = document.getElementById("divAffiche").value;
+    affiche.InnerHTML= cardValueJeu[2]
 }
 function flipCard3() {
     document.getElementById("card3").src = "../Images/cardFrontBlank.png"
