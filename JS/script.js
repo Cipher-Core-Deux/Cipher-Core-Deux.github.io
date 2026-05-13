@@ -138,3 +138,6 @@ for (let i = 0; i < cardValue.length; i++) {
         }
     }
 }
+affiche = document.getElementById("divScore");
+scoreCard = score + "/18"
+affiche.innerHTML = scoreCard
