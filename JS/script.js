@@ -15,7 +15,7 @@ function randomizer() {
 }
 function flipCard1() {
     //source = https://www.w3schools.com/JSREF/prop_pushbutton_value.asp
-    document.getElementById("card1").src = "../Images/cardFrontBlank.png"
+    document.getElementById("card1").src = cardValue[0]
     for (let i = 0; i < cardValue.length; i++) {
         if (i%2 != 0) {
             if (cardValueJeu[0] == cardValue[i]) {
