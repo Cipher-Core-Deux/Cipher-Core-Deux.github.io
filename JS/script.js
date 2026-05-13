@@ -26,6 +26,8 @@ function flipCard1() {
     if (flip = 1) {
         if (preCard = card){
             score++
+        } else {
+            document.getElementById("card8").src = "../Images/cardBack"
         } 
     } else {
     flip = 0
@@ -40,6 +42,8 @@ function flipCard2() {
     if (flip = 1) {
         if (preCard = card){
             score++
+        } else {
+            document.getElementById("card8").src = "../Images/cardBack"
         } 
     } else {
     flip = 0
@@ -54,6 +58,8 @@ function flipCard3() {
     if (flip = 1) {
         if (preCard = card){
             score++
+        } else {
+            document.getElementById("card8").src = "../Images/cardBack"
         } 
     } else {
     flip = 0
@@ -68,6 +74,8 @@ function flipCard4() {
     if (flip = 1) {
         if (preCard = card){
             score++
+        } else {
+            document.getElementById("card8").src = "../Images/cardBack"
         } 
     } else {
     flip = 0
@@ -82,6 +90,8 @@ function flipCard5() {
     if (flip = 1) {
         if (preCard = card){
             score++
+        } else {
+            document.getElementById("card8").src = "../Images/cardBack"
         } 
     } else {
     flip = 0
@@ -96,6 +106,8 @@ function flipCard6() {
     if (flip = 1) {
         if (preCard = card){
             score++
+        } else {
+            document.getElementById("card8").src = "../Images/cardBack"
         } 
     } else {
     flip = 0
@@ -110,6 +122,8 @@ function flipCard7() {
     if (flip = 1) {
         if (preCard = card){
             score++
+        } else {
+            document.getElementById("card8").src = "../Images/cardBack"
         } 
     } else {
     flip = 0
@@ -124,7 +138,9 @@ function flipCard8() {
     if (flip = 1) {
         if (preCard = card){
             score++
-        } 
+        } else {
+            document.getElementById("card8").src = "../Images/cardBack"
+        }
     } else {
     flip = 0
     preCard = card
