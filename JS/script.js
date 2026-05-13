@@ -20,6 +20,17 @@ function flipCard1() {
     //source = https://www.w3schools.com/JSREF/prop_pushbutton_value.asp
     document.getElementById("card1").src = cardValue[0]
     card = 1
+    for (let i = 0; i < cardValue.length; i++) {
+        if (i%2 != 0) {
+            if (card == 1) {
+                if (cardValueJeu[card-1] == cardValue[i]) {
+                    if (card == 2) {
+                        score = score + 1
+                    }
+                }
+            }
+        }
+    }
 }
 function flipCard2() {
     document.getElementById("card2").src = "../Images/cardFrontBlank.png"
@@ -127,17 +138,7 @@ function flipCard35() {
 function flipCard36() {
     document.getElementById("card36").src = "../Images/cardFrontBlank.png"
 }
-for (let i = 0; i < cardValue.length; i++) {
-    if (i%2 != 0) {
-        if (card == 1) {
-            if (cardValueJeu[card-1] == cardValue[i]) {
-                if (card == 2) {
-                    score = score + 1
-                }
-            }
-        }
-    }
-}
+
 affiche = document.getElementById("divScore");
 scoreCard = score + "/18"
 affiche.innerHTML = scoreCard
