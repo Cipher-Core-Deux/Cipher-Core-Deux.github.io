@@ -53,3 +53,24 @@ td {
     padding: 8px;
 }
 
+/* https://www.w3schools.com/cssref/pr_class_cursor.php */
+/* https://www.w3schools.com/css/css_margin.asp */
+/* https://www.w3schools.com/cssref/pr_class_display.php */
+#randomize {
+    margin: 35px auto 20px auto;
+    background-color: #524BB1;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* https://www.w3schools.com/css/css3_transitions.asp */
+#randomize:hover {
+    background-color: #111111;
+    transform: scale(1.05);
+}
+
