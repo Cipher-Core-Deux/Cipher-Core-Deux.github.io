@@ -75,3 +75,19 @@ td {
     transform: scale(1.05);
 }
 
+#ScoreBoard {
+  
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    color: #524BB1;
+    font-size: 24px;
+    
+}
