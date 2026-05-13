@@ -57,6 +57,7 @@ td {
 /* https://www.w3schools.com/css/css_margin.asp */
 /* https://www.w3schools.com/cssref/pr_class_display.php */
 #randomize {
+    display: block;
     margin: 35px auto;
     background-color: #524BB1;
     color: white;
