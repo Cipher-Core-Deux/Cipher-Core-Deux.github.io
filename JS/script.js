@@ -30,6 +30,7 @@ function flipCard1() {
     } else {
     flip = 0
     preCard = card
+    document.getElementById("card1").src = "../Images/cardBack"
     }
 }
 function flipCard2() {
