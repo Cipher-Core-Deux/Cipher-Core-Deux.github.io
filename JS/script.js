@@ -35,7 +35,7 @@ function flipCard1() {
 }
 function flipCard2() {
     document.getElementById("card2").src = cardValueJeu[1]
-    card = cardValue.indexOf(cardValueJeu[0])
+    card = cardValue.indexOf(cardValueJeu[1])
     console.log(card)
     if (flip = 1) {
         if (preCard = card){
@@ -44,25 +44,92 @@ function flipCard2() {
     } else {
     flip = 0
     preCard = card
+    document.getElementById("card2").src = "../Images/cardBack"
     }
 }
 function flipCard3() {
     document.getElementById("card3").src = cardValueJeu[2]
+    card = cardValue.indexOf(cardValueJeu[2])
+    console.log(card)
+    if (flip = 1) {
+        if (preCard = card){
+            score++
+        } 
+    } else {
+    flip = 0
+    preCard = card
+    document.getElementById("card3").src = "../Images/cardBack"
+    }
 }
 function flipCard4() {
     document.getElementById("card4").src = cardValueJeu[3]
+    card = cardValue.indexOf(cardValueJeu[3])
+    console.log(card)
+    if (flip = 1) {
+        if (preCard = card){
+            score++
+        } 
+    } else {
+    flip = 0
+    preCard = card
+    document.getElementById("card4").src = "../Images/cardBack"
+    }
 }
 function flipCard5() {
     document.getElementById("card5").src = cardValueJeu[4]
+    card = cardValue.indexOf(cardValueJeu[4])
+    console.log(card)
+    if (flip = 1) {
+        if (preCard = card){
+            score++
+        } 
+    } else {
+    flip = 0
+    preCard = card
+    document.getElementById("card5").src = "../Images/cardBack"
+    }
 }
 function flipCard6() {
     document.getElementById("card6").src = cardValueJeu[5]
+    card = cardValue.indexOf(cardValueJeu[5])
+    console.log(card)
+    if (flip = 1) {
+        if (preCard = card){
+            score++
+        } 
+    } else {
+    flip = 0
+    preCard = card
+    document.getElementById("card6").src = "../Images/cardBack"
+    }
 }
 function flipCard7() {
     document.getElementById("card7").src = cardValueJeu[6]
+    card = cardValue.indexOf(cardValueJeu[6])
+    console.log(card)
+    if (flip = 1) {
+        if (preCard = card){
+            score++
+        } 
+    } else {
+    flip = 0
+    preCard = card
+    document.getElementById("card7").src = "../Images/cardBack"
+    }
 }
 function flipCard8() {
     document.getElementById("card8").src = cardValueJeu[7]
+    card = cardValue.indexOf(cardValueJeu[7])
+    console.log(card)
+    if (flip = 1) {
+        if (preCard = card){
+            score++
+        } 
+    } else {
+    flip = 0
+    preCard = card
+    document.getElementById("card8").src = "../Images/cardBack"
+    }
 }
 function flipCard9() {
     document.getElementById("card9").src = cardValueJeu[8]
