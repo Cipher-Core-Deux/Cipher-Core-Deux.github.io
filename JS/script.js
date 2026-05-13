@@ -132,6 +132,3 @@ function flipCard35() {
 function flipCard36() {
     document.getElementById("card36").src = "../Images/cardFrontBlank.png"
 }
-
-
-
