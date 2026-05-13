@@ -75,7 +75,7 @@ td {
     transform: scale(1.05);
 }
 
-#ScoreBoard {
+.ScoreBoard {
   
     width: 80%;
     margin: 20px auto;
