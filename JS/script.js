@@ -14,23 +14,21 @@ function randomizer() {
     }
     cardValue = ["../Images/Cards/Math/1.png", "../Images/Cards/Math/R1.png", "../Images/Cards/Math/2.png", "../Images/Cards/Math/R2.png", "../Images/Cards/Math/3.png", "../Images/Cards/Math/R3.png", "../Images/Cards/Math/4.png", "../Images/Cards/Math/R4.png", "../Images/Cards/Math/5.png", "../Images/Cards/Math/R5.png", "../Images/Cards/Math/6.png", "../Images/Cards/Math/R6.png", "../Images/Cards/Math/7.png", "../Images/Cards/Math/R7.png", "../Images/Cards/Math/8.png", "../Images/Cards/Math/R8.png", "../Images/Cards/Math/9.png", "../Images/Cards/Math/R9.png", "../Images/Cards/Math/10.png", "../Images/Cards/Math/R10.png", "../Images/Cards/Math/11.png", "../Images/Cards/Math/R11.png", "../Images/Cards/Math/12.png", "../Images/Cards/Math/R12.png", "../Images/Cards/Math/13.png", "../Images/Cards/Math/R13.png", "../Images/Cards/Math/14.png", "../Images/Cards/Math/R14.png", "../Images/Cards/Math/15.png", "../Images/Cards/Math/R15.png", "../Images/Cards/Math/16.png", "../Images/Cards/Math/R16.png", "../Images/Cards/Math/17.png", "../Images/Cards/Math/R17.png", "../Images/Cards/Math/18.png", "../Images/Cards/Math/R18.png"]
 }
-
+let preCrad
 let card = 0
 let score = 0
 function flipCard1() {
     //source = https://www.w3schools.com/JSREF/prop_pushbutton_value.asp
     document.getElementById("card1").src = cardValueJeu[0]
-    card = 1
-    for (let i = 0; i < cardValue.length; i++) {
-        if (i%2 != 0) {
-            if (card == 1) {
-                if (cardValueJeu[card-1] == cardValue[i]) {
-                    if (card == 2) {
-                        score = score + 1
-                    }
-                }
-            }
-        }
+    card = cardValue.indexOf(cardValueJeu[0])
+    console.log(card)
+    if (flip = 1) {
+        if (preCard = card){
+            score++
+        } 
+    } else {
+    flip = 0
+    preCard = card
     }
 }
 function flipCard2() {
