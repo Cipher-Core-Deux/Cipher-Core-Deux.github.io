@@ -32,10 +32,24 @@
     background-color: #111111;
 }
 
- hr {
+hr {
 width: 80%;
  border: none;
 height: 2px;
 background-color: #524BB1;
  margin-bottom: 30px;
 }
+
+table {
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+td {
+    padding: 8px;
+}
+
