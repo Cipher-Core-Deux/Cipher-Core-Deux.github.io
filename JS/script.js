@@ -17,6 +17,7 @@ function randomizer() {
 let preCrad
 let card = 0
 let score = 0
+let flip = 0
 function flipCard1() {
     //source = https://www.w3schools.com/JSREF/prop_pushbutton_value.asp
     document.getElementById("card1").src = cardValueJeu[0]
@@ -33,7 +34,16 @@ function flipCard1() {
 }
 function flipCard2() {
     document.getElementById("card2").src = cardValueJeu[1]
-    card = 2
+    card = cardValue.indexOf(cardValueJeu[0])
+    console.log(card)
+    if (flip = 1) {
+        if (preCard = card){
+            score++
+        } 
+    } else {
+    flip = 0
+    preCard = card
+    }
 }
 function flipCard3() {
     document.getElementById("card3").src = cardValueJeu[2]
