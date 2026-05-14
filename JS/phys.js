@@ -1,4 +1,4 @@
-let cardValue = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "r1", "r2", "r3", "r4", "r5", "r6", "r7", "r8", "r9", "r10", "r11", "r12", "r13", "r14", "r15", "r16", "r17", "r18"]
+let cardValue = ["../Images/Cards/Phys/1", "../Images/Cards/Phys/2", "../Images/Cards/Phys/3", "../Images/Cards/Phys/4", "../Images/Cards/Phys/5", "../Images/Cards/Phys/6", "../Images/Cards/Phys/7", "../Images/Cards/Phys/8", "../Images/Cards/Phys/9", "../Images/Cards/Phys/10", "../Images/Cards/Phys/11", "../Images/Cards/Phys/12", "../Images/Cards/Phys/13", "../Images/Cards/Phys/14", "../Images/Cards/Phys/15", "../Images/Cards/Phys/16", "../Images/Cards/Phys/17", "../Images/Cards/Phys/18", "../Images/Cards/Phys/R1", "../Images/Cards/Phys/R2", "../Images/Cards/Phys/R3", "../Images/Cards/Phys/R4", "../Images/Cards/Phys/R5", "../Images/Cards/Phys/R6", "../Images/Cards/Phys/R7", "../Images/Cards/Phys/R8", "../Images/Cards/Phys/R9", "../Images/Cards/Phys/R10", "../Images/Cards/Phys/R11", "../Images/Cards/Phys/R12", "../Images/Cards/Phys/R13", "../Images/Cards/Phys/R14", "../Images/Cards/Phys/R15", "../Images/Cards/Phys/R16", "../Images/Cards/Phys/R17", "../Images/Cards/Phys/R18"]
 let cardValueJeu = [""];
 function randomizer() {
     let j;
@@ -11,8 +11,9 @@ function randomizer() {
         console.log(cardValueJeu.toString() )
         cardValue.splice(j, 1) 
     }
-    cardValue = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "r1", "r2", "r3", "r4", "r5", "r6", "r7", "r8", "r9", "r10", "r11", "r12", "r13", "r14", "r15", "r16", "r17", "r18"]
+    cardValue = ["../Images/Cards/Phys/1", "../Images/Cards/Phys/2", "../Images/Cards/Phys/3", "../Images/Cards/Phys/4", "../Images/Cards/Phys/5", "../Images/Cards/Phys/6", "../Images/Cards/Phys/7", "../Images/Cards/Phys/8", "../Images/Cards/Phys/9", "../Images/Cards/Phys/10", "../Images/Cards/Phys/11", "../Images/Cards/Phys/12", "../Images/Cards/Phys/13", "../Images/Cards/Phys/14", "../Images/Cards/Phys/15", "../Images/Cards/Phys/16", "../Images/Cards/Phys/17", "../Images/Cards/Phys/18", "../Images/Cards/Phys/R1", "../Images/Cards/Phys/R2", "../Images/Cards/Phys/R3", "../Images/Cards/Phys/R4", "../Images/Cards/Phys/R5", "../Images/Cards/Phys/R6", "../Images/Cards/Phys/R7", "../Images/Cards/Phys/R8", "../Images/Cards/Phys/R9", "../Images/Cards/Phys/R10", "../Images/Cards/Phys/R11", "../Images/Cards/Phys/R12", "../Images/Cards/Phys/R13", "../Images/Cards/Phys/R14", "../Images/Cards/Phys/R15", "../Images/Cards/Phys/R16", "../Images/Cards/Phys/R17", "../Images/Cards/Phys/R18"]
 }
+
 function flipCard1() {
     //source = https://www.w3schools.com/JSREF/prop_pushbutton_value.asp
     document.getElementById("card1").value = cardValueJeu[0]
