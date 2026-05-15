@@ -31,8 +31,6 @@ function cardCheck(cardNum) {
     } else {
     flip = 0
     preCard = card
-    document.getElementById(cardNum).src = "../Images/cardBack"
-    document.getElementById(preCardNum).src = "../Images/cardBack"
     }
 }
 function flipCard1() {
