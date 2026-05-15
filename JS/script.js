@@ -65,11 +65,11 @@ function cardCheck(cardNum) {
             preCard = 0
             flip = 0
         } else {
+            preCard = 0
+            flip = 0
             setTimeout(() => {
                 document.getElementById(cardNum).src = "../Images/cardBack.png"
                 document.getElementById(preCardNum).src = "../Images/cardBack.png"
-                preCard = 0
-                flip = 0
             }, 1000);
         } 
     } else {
