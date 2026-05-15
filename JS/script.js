@@ -59,12 +59,12 @@ function cardCheck(cardNum) {
     if (flip == 1) {
         if (preCard == card){
             score++
-            preCard = ""
+            preCard = 0
         } else {
             setTimeout(() => {
                 document.getElementById(cardNum).src = "../Images/cardBack.png"
                 document.getElementById(preCardNum).src = "../Images/cardBack.png"
-                preCard = ""
+                preCard = 0
             }, 3000);
         } 
     } else {
