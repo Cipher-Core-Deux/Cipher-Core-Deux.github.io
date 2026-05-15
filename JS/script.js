@@ -62,11 +62,13 @@ function cardCheck(cardNum) {
             score++
             console.log(score)
             preCard = 0
+            flip = 0
         } else {
             setTimeout(() => {
                 document.getElementById(cardNum).src = "../Images/cardBack.png"
                 document.getElementById(preCardNum).src = "../Images/cardBack.png"
                 preCard = 0
+                flip = 0
             }, 1000);
         } 
     } else {
