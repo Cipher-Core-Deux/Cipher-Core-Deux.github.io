@@ -2,6 +2,7 @@ let cardValue = ["../Images/Cards/Math/1.png", "../Images/Cards/Math/R1.png", ".
 let cardValueJeu = [""];
 console.log(cardValue.length)
 function randomizer() {
+    document.getElementById
     let j;
     cardValueJeu = [""];
     for (let i=0; i < 36; i++) {
@@ -19,6 +20,7 @@ let preCardNum = ""
 function cardCheck(cardNum) {
     card = cardValue.indexOf(cardValueJeu[cardNum[4]])
     console.log(card)
+    console.log(preCard)
     if (flip == 1) {
         if (preCard == card){
             score++
