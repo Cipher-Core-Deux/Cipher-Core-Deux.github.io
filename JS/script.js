@@ -24,9 +24,11 @@ function cardCheck(cardNum) {
             score++
             preCard = ""
         } else {
-            document.getElementById(cardNum).src = "../Images/cardBack.png"
-            document.getElementById(preCardNum).src = "../Images/cardBack.png"
-            preCard = ""
+            setTimeout(() => {
+                document.getElementById(cardNum).src = "../Images/cardBack.png"
+                document.getElementById(preCardNum).src = "../Images/cardBack.png"
+                preCard = ""
+            }, 3000);
         } 
     } else {
     flip = 1
