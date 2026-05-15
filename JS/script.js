@@ -22,11 +22,48 @@ function cardCheck(cardNum) {
         if (preCard == card){
             score++
         } else {
-            document.getElementById("cardNum").src = "../Images/cardBack"
+            document.getElementById("card1").src = "../Images/cardBack"
+            document.getElementById("card2").src = "../Images/cardBack"
+            document.getElementById("card3").src = "../Images/cardBack"
+            document.getElementById("card4").src = "../Images/cardBack"
+            document.getElementById("card5").src = "../Images/cardBack"
+            document.getElementById("card6").src = "../Images/cardBack"
+            document.getElementById("card7").src = "../Images/cardBack"
+            document.getElementById("card8").src = "../Images/cardBack"
+            document.getElementById("card9").src = "../Images/cardBack"
+            document.getElementById("card10").src = "../Images/cardBack"
+            document.getElementById("card11").src = "../Images/cardBack"
+            document.getElementById("card12").src = "../Images/cardBack"
+            document.getElementById("card13").src = "../Images/cardBack"
+            document.getElementById("card14").src = "../Images/cardBack"
+            document.getElementById("card15").src = "../Images/cardBack"
+            document.getElementById("card16").src = "../Images/cardBack"
+            document.getElementById("card17").src = "../Images/cardBack"
+            document.getElementById("card18").src = "../Images/cardBack"
+            document.getElementById("card19").src = "../Images/cardBack"
+            document.getElementById("card20").src = "../Images/cardBack"
+            document.getElementById("card21").src = "../Images/cardBack"
+            document.getElementById("card22").src = "../Images/cardBack"
+            document.getElementById("card23").src = "../Images/cardBack"
+            document.getElementById("card24").src = "../Images/cardBack"
+            document.getElementById("card25").src = "../Images/cardBack"
+            document.getElementById("card26").src = "../Images/cardBack"
+            document.getElementById("card27").src = "../Images/cardBack"
+            document.getElementById("card28").src = "../Images/cardBack"
+            document.getElementById("card29").src = "../Images/cardBack"
+            document.getElementById("card30").src = "../Images/cardBack"
+            document.getElementById("card31").src = "../Images/cardBack"
+            document.getElementById("card32").src = "../Images/cardBack"
+            document.getElementById("card33").src = "../Images/cardBack"
+            document.getElementById("card34").src = "../Images/cardBack"
+            document.getElementById("card35").src = "../Images/cardBack"
+            document.getElementById("card36").src = "../Images/cardBack"
         } 
+        
     } else {
     flip = 0
     preCard = card
+
     }
 }
 function flipCard1() {
