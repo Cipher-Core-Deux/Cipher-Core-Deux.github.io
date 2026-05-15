@@ -71,7 +71,7 @@ function cardCheck(cardNum) {
     } else {
     flip = 1
     preCard = card
-    preCardNum = parseInt(cardNum[4]) - 1
+    preCardNum = cardNum
     }
 }
 function flipCard1() {
