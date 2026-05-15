@@ -129,8 +129,7 @@ td {
     right: 0;
     background-color: white;
     min-width: 220px;
-    /* border-radius-top-left: 12px;
-    border-radius-top-right: 12px; */
+    border-radius-top-right: 12px; 
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
