@@ -2,7 +2,42 @@ let cardValue = ["../Images/Cards/Math/1.png", "../Images/Cards/Math/R1.png", ".
 let cardValueJeu = [""];
 console.log(cardValue.length)
 function randomizer() {
-    document.getElementById
+    document.getElementById("card1").src = "../Images/cardBack.png"
+    document.getElementById("card2").src = "../Images/cardBack.png"
+    document.getElementById("card3").src = "../Images/cardBack.png"
+    document.getElementById("card4").src = "../Images/cardBack.png"
+    document.getElementById("card5").src = "../Images/cardBack.png"
+    document.getElementById("card6").src = "../Images/cardBack.png"
+    document.getElementById("card7").src = "../Images/cardBack.png"
+    document.getElementById("card8").src = "../Images/cardBack.png"
+    document.getElementById("card9").src = "../Images/cardBack.png"
+    document.getElementById("card10").src = "../Images/cardBack.png"
+    document.getElementById("card11").src = "../Images/cardBack.png"
+    document.getElementById("card12").src = "../Images/cardBack.png"
+    document.getElementById("card13").src = "../Images/cardBack.png"
+    document.getElementById("card14").src = "../Images/cardBack.png"
+    document.getElementById("card15").src = "../Images/cardBack.png"
+    document.getElementById("card16").src = "../Images/cardBack.png"
+    document.getElementById("card17").src = "../Images/cardBack.png"
+    document.getElementById("card18").src = "../Images/cardBack.png"
+    document.getElementById("card19").src = "../Images/cardBack.png"
+    document.getElementById("card20").src = "../Images/cardBack.png"
+    document.getElementById("card21").src = "../Images/cardBack.png"
+    document.getElementById("card22").src = "../Images/cardBack.png"
+    document.getElementById("card23").src = "../Images/cardBack.png"
+    document.getElementById("card24").src = "../Images/cardBack.png"
+    document.getElementById("card25").src = "../Images/cardBack.png"
+    document.getElementById("card26").src = "../Images/cardBack.png"
+    document.getElementById("card27").src = "../Images/cardBack.png"
+    document.getElementById("card28").src = "../Images/cardBack.png"
+    document.getElementById("card29").src = "../Images/cardBack.png"
+    document.getElementById("card30").src = "../Images/cardBack.png"
+    document.getElementById("card31").src = "../Images/cardBack.png"
+    document.getElementById("card32").src = "../Images/cardBack.png"
+    document.getElementById("card33").src = "../Images/cardBack.png"
+    document.getElementById("card34").src = "../Images/cardBack.png"
+    document.getElementById("card35").src = "../Images/cardBack.png"
+    document.getElementById("card36").src = "../Images/cardBack.png"
     let j;
     cardValueJeu = [""];
     for (let i=0; i < 36; i++) {
