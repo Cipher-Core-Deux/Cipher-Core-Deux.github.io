@@ -177,67 +177,67 @@ function flipCard20() {
 }
 function flipCard21() {
     document.getElementById("card21").src = cardValueJeu[20]
-    cardCheck("5")
+    cardCheck("21")
 }
 function flipCard22() {
     document.getElementById("card22").src = cardValueJeu[21]
-    cardCheck("5")
+    cardCheck("22")
 }
 function flipCard23() {
     document.getElementById("card23").src = cardValueJeu[22]
-    cardCheck("5")
+    cardCheck("23")
 }
 function flipCard24() {
     document.getElementById("card24").src = cardValueJeu[23]
-    cardCheck("5")
+    cardCheck("24")
 }
 function flipCard25() {
     document.getElementById("card25").src = cardValueJeu[24]
-    cardCheck("5")
+    cardCheck("25")
 }
 function flipCard26() {
     document.getElementById("card26").src = cardValueJeu[25]
-    cardCheck("5")
+    cardCheck("26")
 }
 function flipCard27() {
     document.getElementById("card27").src = cardValueJeu[26]
-    cardCheck("5")
+    cardCheck("27")
 }
 function flipCard28() {
     document.getElementById("card28").src = cardValueJeu[27]
-    cardCheck("5")
+    cardCheck("28")
 }
 function flipCard29() {
     document.getElementById("card29").src = cardValueJeu[28]
-    cardCheck("5")
+    cardCheck("29")
 }
 function flipCard30() {
     document.getElementById("card30").src = cardValueJeu[29]
-    cardCheck("5")
+    cardCheck("30")
 }
 function flipCard31() {
     document.getElementById("card31").src = cardValueJeu[30]
-    cardCheck("5")
+    cardCheck("31")
 }
 function flipCard32() {
     document.getElementById("card32").src = cardValueJeu[31]
-    cardCheck("5")
+    cardCheck("32")
 }
 function flipCard33() {
     document.getElementById("card33").src = cardValueJeu[32]
-    cardCheck("5")
+    cardCheck("33")
 }
 function flipCard34() {
     document.getElementById("card34").src = cardValueJeu[33]
-    cardCheck("5")
+    cardCheck("34")
 }
 function flipCard35() {
     document.getElementById("card35").src = cardValueJeu[34]
-    cardCheck("5")
+    cardCheck("35")
 }
 function flipCard36() {
     document.getElementById("card36").src = cardValueJeu[35]
-    cardCheck("5")
+    cardCheck("36")
 }
 
 affiche = document.getElementById("divScore");
