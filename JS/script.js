@@ -22,15 +22,16 @@ function cardCheck(cardNum) {
     if (flip == 1) {
         if (preCard == card){
             score++
-            preCardNum = cardNum
+            preCard = ""
         } else {
             document.getElementById(cardNum).src = "../Images/cardBack"
             document.getElementById(preCardNum).src = "../Images/cardBack"
-
+            preCard = ""
         } 
     } else {
-    flip = 0
+    flip = 1
     preCard = card
+    preCardNum = cardNum
     }
 }
 function flipCard1() {
