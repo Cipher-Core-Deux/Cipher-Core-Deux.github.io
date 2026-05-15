@@ -68,7 +68,7 @@ function cardCheck(cardNum) {
             preCard = 0
             flip = 0
             setTimeout(() => {
-                document.getElementById(cardNum).src = "../Images/cardBack.png"
+                document.getElementById("card" + cardNum).src = "../Images/cardBack.png"
                 document.getElementById(preCardNum).src = "../Images/cardBack.png"
             }, 1000);
         } 
