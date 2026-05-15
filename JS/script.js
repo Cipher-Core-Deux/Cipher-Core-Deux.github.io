@@ -101,63 +101,63 @@ function flipCard5() {
 }
 function flipCard6() {
     document.getElementById("card6").src = cardValueJeu[5]
-    cardCheck("card5")
+    cardCheck("card6")
 }
 function flipCard7() {
     document.getElementById("card7").src = cardValueJeu[6]
-    cardCheck("card5")
+    cardCheck("card7")
 }
 function flipCard8() {
     document.getElementById("card8").src = cardValueJeu[7]
-    cardCheck("card5")
+    cardCheck("card8")
 }
 function flipCard9() {
     document.getElementById("card9").src = cardValueJeu[8]
-    cardCheck("card5")
+    cardCheck("card9")
 }
 function flipCard10() {
     document.getElementById("card10").src = cardValueJeu[9]
-    cardCheck("card5")
+    cardCheck("card10")
 }
 function flipCard11() {
     document.getElementById("card11").src = cardValueJeu[10]
-    cardCheck("card5")
+    cardCheck("card11")
 }
 function flipCard12() {
     document.getElementById("card12").src = cardValueJeu[11]
-    cardCheck("card5")
+    cardCheck("card12")
 }
 function flipCard13() {
     document.getElementById("card13").src = cardValueJeu[12]
-    cardCheck("card5")
+    cardCheck("card13")
 }
 function flipCard14() {
     document.getElementById("card14").src = cardValueJeu[13]
-    cardCheck("card5")
+    cardCheck("card14")
 }
 function flipCard15() {
     document.getElementById("card15").src = cardValueJeu[14]
-    cardCheck("card5")
+    cardCheck("card15")
 }
 function flipCard16() {
     document.getElementById("card16").src = cardValueJeu[15]
-    cardCheck("card5")
+    cardCheck("card16")
 }
 function flipCard17() {
     document.getElementById("card17").src = cardValueJeu[16]
-    cardCheck("card5")
+    cardCheck("card17")
 }
 function flipCard18() {
     document.getElementById("card18").src = cardValueJeu[17]
-    cardCheck("card5")
+    cardCheck("card18")
 }
 function flipCard19() {
     document.getElementById("card19").src = cardValueJeu[18]
-    cardCheck("card5")
+    cardCheck("card19")
 }
 function flipCard20() {
     document.getElementById("card20").src = cardValueJeu[19]
-    cardCheck("card5")
+    cardCheck("card20")
 }
 function flipCard21() {
     document.getElementById("card21").src = cardValueJeu[20]
