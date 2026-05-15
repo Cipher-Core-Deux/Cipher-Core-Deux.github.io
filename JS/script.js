@@ -60,7 +60,7 @@ function cardCheck(cardNum) {
     console.log(score)
     if (flip == 1) {
         if (card % 2 == 0) {
-        if (preCard == card - 1){
+        if (preCard == card + 1){
             score++
             console.log(score)
             preCard = 0
@@ -74,7 +74,7 @@ function cardCheck(cardNum) {
             }, 1000);
         } 
     } else {
-        if (preCard == card + 1){
+        if (preCard == card - 1){
             score++
             console.log(score)
             preCard = 0
