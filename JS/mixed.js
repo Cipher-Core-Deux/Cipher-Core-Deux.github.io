@@ -1,7 +1,7 @@
-for (let f = 0; f !=18; f++) {
-  let cardValue = []
+let cardValue = []
 let cardValueJeu = [""];
 let séparation = ", "
+for (let f = 0; f !=18; f++) {
 let cardRegId1 = Math.floor(Math.random() * 3);
 let cardRegId2 = Math.floor(Math.random() * 18);
 if (cardRegId1 == 0) {
