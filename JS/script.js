@@ -23,8 +23,8 @@ function flipCard1() {
     document.getElementById("card1").src = cardValueJeu[0]
     card = cardValue.indexOf(cardValueJeu[0])
     console.log(card)
-    if (flip = 1) {
-        if (preCard = card){
+    if (flip == 1) {
+        if (preCard == card){
             score++
         } else {
             document.getElementById("card8").src = "../Images/cardBack"
@@ -39,8 +39,8 @@ function flipCard2() {
     document.getElementById("card2").src = cardValueJeu[1]
     card = cardValue.indexOf(cardValueJeu[1])
     console.log(card)
-    if (flip = 1) {
-        if (preCard = card){
+    if (flip == 1) {
+        if (preCard == card){
             score++
         } else {
             document.getElementById("card8").src = "../Images/cardBack"
