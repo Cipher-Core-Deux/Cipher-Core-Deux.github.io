@@ -24,8 +24,8 @@ function cardCheck(cardNum) {
             score++
             preCard = ""
         } else {
-            document.getElementById(cardNum).src = "../Images/cardBack"
-            document.getElementById(preCardNum).src = "../Images/cardBack"
+            document.getElementById(cardNum).src = "../Images/cardBack.png"
+            document.getElementById(preCardNum).src = "../Images/cardBack.png"
             preCard = ""
         } 
     } else {
