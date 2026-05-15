@@ -59,7 +59,8 @@ function cardCheck(cardNum) {
     console.log(preCard)
     console.log(score)
     if (flip == 1) {
-        if (preCard == card){
+        if (card % 2 == 0) {
+        if (preCard == card - 1){
             score++
             console.log(score)
             preCard = 0
@@ -72,6 +73,21 @@ function cardCheck(cardNum) {
                 document.getElementById("card" + preCardNum).src = "../Images/cardBack.png"
             }, 1000);
         } 
+    } else {
+        if (preCard == card + 1){
+            score++
+            console.log(score)
+            preCard = 0
+            flip = 0
+        } else {
+            preCard = 0
+            flip = 0
+            setTimeout(() => {
+                document.getElementById("card" + cardNum).src = "../Images/cardBack.png"
+                document.getElementById("card" + preCardNum).src = "../Images/cardBack.png"
+            }, 1000);
+        } 
+    }
     } else {
     flip = 1
     preCard = card
