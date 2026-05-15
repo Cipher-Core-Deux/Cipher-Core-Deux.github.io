@@ -132,6 +132,7 @@ td {
     border-radius-top-right: 12px; 
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    z-index: 1;
 }
 
 .dropdown-content a {
