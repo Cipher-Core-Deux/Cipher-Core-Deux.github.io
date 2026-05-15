@@ -152,19 +152,4 @@ td {
     display: block;
 }
 
-.formule {
-background-color: white;
-color: #524BB1;
-border: 2px solid #d8d2f2;
-border-radius: 10px;
-padding: 12px;
-font-size: 20px;
-}
-
-.exemple {
-background-color: white;
-border-left: 6px solid #524BB1;
-padding: 12px;
-margin-top: 12px;
-}
 
