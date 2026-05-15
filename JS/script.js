@@ -67,7 +67,7 @@ function cardCheck(cardNum) {
                 document.getElementById(cardNum).src = "../Images/cardBack.png"
                 document.getElementById(preCardNum).src = "../Images/cardBack.png"
                 preCard = 0
-            }, 3000);
+            }, 1000);
         } 
     } else {
     flip = 1
