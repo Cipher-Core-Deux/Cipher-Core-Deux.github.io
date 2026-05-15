@@ -187,7 +187,7 @@ console.log(cardValue.length)
 function randomizer() {
     let j;
     cardValueJeu = [""];
-    for (let i=0; i < 36; i++) {
+    for (let i=0; i < 18; i++) {
         j = parseInt(Math.floor(Math.random() * cardValue.length))
         console.log(j + " " + cardValue[j] )
         cardValueJeu[i] = cardValue[j]
