@@ -1,132 +1,188 @@
-let cardValue = [""]
+for (let f = 0; f !=18; f++) {
+  let cardValue = []
 let cardValueJeu = [""];
+let séparation = ", "
 let cardRegId1 = Math.floor(Math.random() * 3);
 let cardRegId2 = Math.floor(Math.random() * 18);
 if (cardRegId1 == 0) {
   if (cardRegId2 == 0) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Math/1"
+    cardValue[cardValue.length] = "../Images/Cards/Math/R1"
   } else if (cardRegId2 == 1) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Math/2"
+    cardValue[cardValue.length] = "../Images/Cards/Math/R2"
   } else if (cardRegId2 == 2) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Math/3"
+    cardValue[cardValue.length] = "../Images/Cards/Math/R3"
   } else if (cardRegId2 == 3) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Math/4"
+    cardValue[cardValue.length] = "../Images/Cards/Math/R4"
   } else if (cardRegId2 == 4) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Math/5"
+    cardValue[cardValue.length] = "../Images/Cards/Math/R5"
   } else if (cardRegId2 == 5) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Math/6"
+    cardValue[cardValue.length] = "../Images/Cards/Math/R6"
   } else if (cardRegId2 == 6) {
-    
+    cardValue[cardValue.length] = "../Images/Cards/Math/7"    
+    cardValue[cardValue.length] = "../Images/Cards/Math/R7"    
   } else if (cardRegId2 == 7) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Math/8"
+    cardValue[cardValue.length] = "../Images/Cards/Math/R8"
   } else if (cardRegId2 == 8) {
-    
+    cardValue[cardValue.length] = "../Images/Cards/Math/9"    
+    cardValue[cardValue.length] = "../Images/Cards/Math/R9"    
   } else if (cardRegId2 == 9) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Math/10"
+    cardValue[cardValue.length] = "../Images/Cards/Math/R10"
   } else if (cardRegId2 == 10) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Math/11"
+    cardValue[cardValue.length] = "../Images/Cards/Math/R11"
   } else if (cardRegId2 == 11) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Math/12"
+    cardValue[cardValue.length] = "../Images/Cards/Math/R12"
   } else if (cardRegId2 == 12) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Math/13"
+    cardValue[cardValue.length] = "../Images/Cards/Math/R13"
   } else if (cardRegId2 == 13) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Math/14"
+    cardValue[cardValue.length] = "../Images/Cards/Math/R14"
   } else if (cardRegId2 == 14) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Math/15"
+    cardValue[cardValue.length] = "../Images/Cards/Math/R15"
   } else if (cardRegId2 == 15) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Math/16"
+    cardValue[cardValue.length] = "../Images/Cards/Math/R16"
   } else if (cardRegId2 == 16) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Math/17"
+    cardValue[cardValue.length] = "../Images/Cards/Math/R17"
   } else if (cardRegId2 == 17) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Math/18"
+    cardValue[cardValue.length] = "../Images/Cards/Math/R18"
   } else {
     console.log("Erreur: IfRegId2 IfRegId1 == 0");
   }
 } else if (cardRegId1 == 1) {
   if (cardRegId2 == 0) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Chem/1"
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R1"
   } else if (cardRegId2 == 1) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Chem/2"
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R2"
   } else if (cardRegId2 == 2) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Chem/3"
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R3"
   } else if (cardRegId2 == 3) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Chem/4"
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R4"
   } else if (cardRegId2 == 4) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Chem/5"
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R5"
   } else if (cardRegId2 == 5) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Chem/6"
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R6"
   } else if (cardRegId2 == 6) {
-    
+    cardValue[cardValue.length] = "../Images/Cards/Chem/7"    
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R7"    
   } else if (cardRegId2 == 7) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Chem/8"
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R8"
   } else if (cardRegId2 == 8) {
-    
+    cardValue[cardValue.length] = "../Images/Cards/Chem/9"    
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R9"    
   } else if (cardRegId2 == 9) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Chem/10"
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R10"
   } else if (cardRegId2 == 10) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Chem/11"
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R11"
   } else if (cardRegId2 == 11) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Chem/12"
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R12"
   } else if (cardRegId2 == 12) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Chem/13"
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R13"
   } else if (cardRegId2 == 13) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Chem/14"
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R14"
   } else if (cardRegId2 == 14) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Chem/15"
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R15"
   } else if (cardRegId2 == 15) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Chem/16"
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R16"
   } else if (cardRegId2 == 16) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Chem/17"
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R17"
   } else if (cardRegId2 == 17) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Chem/18"
+    cardValue[cardValue.length] = "../Images/Cards/Chem/R18"
   } else {
     console.log("Erreur: IfRegId2 IfRegId1 == 1");
   }
 } else if (cardRegId1 == 2) {
   if (cardRegId2 == 0) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Phys/1"
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R1"
   } else if (cardRegId2 == 1) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Phys/2"
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R2"
   } else if (cardRegId2 == 2) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Phys/3"
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R3"
   } else if (cardRegId2 == 3) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Phys/4"
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R4"
   } else if (cardRegId2 == 4) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Phys/5"
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R5"
   } else if (cardRegId2 == 5) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Phys/6"
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R6"
   } else if (cardRegId2 == 6) {
-    
+    cardValue[cardValue.length] = "../Images/Cards/Phys/7"    
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R7"    
   } else if (cardRegId2 == 7) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Phys/8"
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R8"
   } else if (cardRegId2 == 8) {
-    
+    cardValue[cardValue.length] = "../Images/Cards/Phys/9"    
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R9"    
   } else if (cardRegId2 == 9) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Phys/10"
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R10"
   } else if (cardRegId2 == 10) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Phys/11"
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R11"
   } else if (cardRegId2 == 11) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Phys/12"
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R12"
   } else if (cardRegId2 == 12) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Phys/13"
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R13"
   } else if (cardRegId2 == 13) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Phys/14"
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R14"
   } else if (cardRegId2 == 14) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Phys/15"
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R15"
   } else if (cardRegId2 == 15) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Phys/16"
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R16"
   } else if (cardRegId2 == 16) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Phys/17"
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R17"
   } else if (cardRegId2 == 17) {
-
+    cardValue[cardValue.length] = "../Images/Cards/Phys/18"
+    cardValue[cardValue.length] = "../Images/Cards/Phys/R18"
   } else {
     console.log("Erreur: IfRegId2 IfRegId1 == 2");
   }
 } else {
   console.log("Erreur: IfRegId1");
 }
-console.log(cardRegId1);
-console.log(cardRegId2);
+  console.log(f)
+}
 console.log(cardValue.length)
 function randomizer() {
     let j;
