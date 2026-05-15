@@ -56,6 +56,7 @@ function cardCheck(cardNum) {
     card = cardValue.indexOf(cardValueJeu[cardNum])
     console.log(card)
     console.log(cardValue.indexOf(cardValueJeu[cardNum]))
+    console.log(cardValueJeu[cardNum])
     console.log(preCard)
     console.log(score)
     if (flip == 1) {
