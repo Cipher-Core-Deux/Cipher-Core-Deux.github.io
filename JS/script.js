@@ -57,8 +57,9 @@ function cardCheck(cardNum) {
     console.log(card)
     console.log(preCard)
     if (flip == 1) {
-        if (preCard == card){
+        if (preCard == card - 1){
             score++
+            console.log(score)
             preCard = 0
         } else {
             setTimeout(() => {
@@ -70,7 +71,7 @@ function cardCheck(cardNum) {
     } else {
     flip = 1
     preCard = card
-    preCardNum = cardNum
+    preCardNum = parseInt(cardNum[4]) - 1
     }
 }
 function flipCard1() {
