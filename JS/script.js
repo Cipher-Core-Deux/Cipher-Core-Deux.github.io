@@ -244,9 +244,3 @@ function flipCard36() {
     document.getElementById("card36").src = cardValueJeu[35]
     cardCheck("36")
 }
-let i = 0
-while (i != 1){
-    setTimeout(() => {
-        
-    }, 1000);
-}
