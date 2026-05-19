@@ -1,89 +1,186 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
+    <!-- Encodage des caractères -->
     <meta charset="UTF-8">
+
+    <!-- Titre affiché dans l’onglet -->
     <title>Projet - π</title>
+
+    <!-- Liens vers les fichiers CSS -->
     <link rel="stylesheet" href="CSS/Paxstyles.css">
     <link rel="stylesheet" href="CSS/styles.css">
+
+    <!-- Icône du site -->
     <link rel="icon" type="image/x-icon" href="Images/E-Claque-Logo-Seul.png">
-    
-    
+
     <style>
+
+        /* Style général du body */
         body {
+
+            /* Retire les marges par défaut */
             margin: 0;
+
+            /* Couleur de fond */
             background-color: #f4f4f8;
+
+            /* Couleur du texte */
             color: #333333;
         }
 
+        /* Style du titre principal */
         #Titre {
+
+            /* Marge en haut */
             margin-top: 35px;
+
+            /* Centre le texte */
             text-align: center;
+
+            /* Taille du texte */
             font-size: 50px;
+
+            /* Couleur du texte */
             color: #524BB1;
         }
 
+        /* Ligne horizontale */
         hr {
+
+            /* Largeur de la ligne */
             width: 80%;
+
+            /* Retire la bordure par défaut */
             border: none;
+
+            /* Hauteur de la ligne */
             height: 2px;
+
+            /* Couleur de la ligne */
             background-color: #524BB1;
+
+            /* Marge en dessous */
             margin-bottom: 30px;
         }
 
+        /* Conteneur des étapes */
         .BoxContainer {
+
+            /* Largeur */
             width: 80%;
+
+            /* Centre le conteneur */
             margin: 25px auto;
+
+            /* Espacement intérieur */
             padding: 25px;
+
+            /* Bordure */
             border: 1px solid #cccccc;
+
+            /* Coins arrondis */
             border-radius: 20px;
+
+            /* Fond blanc */
             background-color: white;
+
+            /* Ombre */
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
         }
 
+        /* Titre des étapes */
         .TitreÉtape {
+
+            /* Couleur du texte */
             color: #524BB1;
+
+            /* Taille du texte */
             font-size: 26px;
+
+            /* Marge en dessous */
             margin-bottom: 10px;
         }
 
+        /* Texte des instructions */
         .InstructionÉtape {
+
+            /* Couleur du texte */
             color: #555555;
+
+            /* Taille du texte */
             font-size: 18px;
+
+            /* Texte normal */
             font-weight: normal;
         }
+
     </style>
+
 </head>
 
 <body>
 
-   <nav class="navigateur">
+    <!-- Barre de navigation -->
+    <nav class="navigateur">
 
+        <!-- Logo du site -->
         <img class="Logo" src="Images/E-Claque-Logo.png" alt="Logo E-Claque">
 
-        <div class="Links"> 
+        <div class="Links">
+
+            <!-- Liens vers les pages -->
             <a href="index.html">Accueil</a>
             <a href="tutorial.html">Tutoriel</a>
             <a href="Àpropos.html"> À propos </a>
 
+        </div>
+
     </nav>
 
+    <!-- Titre principal -->
     <h1 id="Titre">Tutoriel</h1>
 
+    <!-- Ligne de séparation -->
     <hr>
 
-    <div class="BoxContainer"> 
+    <!-- Première boîte -->
+    <div class="BoxContainer">
+
+        <!-- Titre de l’étape -->
         <h3 class="TitreÉtape">Étape 1 - Choisis ta matière</h3>
+
+        <!-- Description de l’étape -->
         <h3 class="InstructionÉtape">
-            Le joueur choisit entre les mathématiques, la physique et la chimie, puis précise son choix en se concentrant sur un concept spécifique, comme la deuxième loi de Newton ou les équations du second degré.
+
+            Le joueur choisit entre les mathématiques, la physique et la chimie,
+            puis précise son choix en se concentrant sur un concept spécifique,
+            comme la deuxième loi de Newton ou les équations du second degré.
+
         </h3>
+
     </div>
 
-    <div class="BoxContainer"> 
+    <!-- Deuxième boîte -->
+    <div class="BoxContainer">
+
+        <!-- Titre de l’étape -->
         <h3 class="TitreÉtape">Étape 2 - Associer les cartes</h3>
+
+        <!-- Description de l’étape -->
         <h3 class="InstructionÉtape">
-            Le principe du jeu est expliqué : retourner deux cartes à la fois et trouver la paire correspondante. Les paires peuvent être : terme ↔ définition, formule ↔ nom ou élément ↔ symbole, selon le sujet.
+
+            Le principe du jeu est expliqué : retourner deux cartes à la fois
+            et trouver la paire correspondante. Les paires peuvent être :
+            terme ↔ définition, formule ↔ nom ou élément ↔ symbole,
+            selon le sujet.
+
         </h3>
+
     </div>
 
 </body>
+
 </html>
