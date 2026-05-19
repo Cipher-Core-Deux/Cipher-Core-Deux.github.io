@@ -1,160 +1,405 @@
+/* 
+   Barre de navigation
+*/
 .navigateur {
-            background-color: #524BB1;
-            border-radius: 15px 15px 0 0;
-            color: white;
-            height: 125px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 40px;
-        }
+
+    /* Couleur de fond */
+    background-color: #524BB1;
+
+    /* Coins arrondis en haut */
+    border-radius: 15px 15px 0 0;
+
+    /* Couleur du texte */
+    color: white;
+
+    /* Hauteur de la barre */
+    height: 125px;
+
+    /* Utilise Flexbox */
+    display: flex;
+
+    /* Les éléments sont placés horizontalement */
+    flex-direction: row;
+
+    /* Espace entre le logo et les liens */
+    justify-content: space-between;
+
+    /* Centre verticalement les éléments */
+    align-items: center;
+
+    /* Espacement intérieur gauche/droite */
+    padding: 0 40px;
+}
+
+/* 
+   Logo
+ */
 .Logo {
-      height: 90px;
+
+    /* Hauteur du logo */
+    height: 90px;
 }
 
+/* 
+   Conteneur des liens
+*/
 .Links {
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
+
+    /* Active Flexbox */
+    display: flex;
+
+    /* Les liens sont placés en ligne */
+    flex-direction: row;
+
+    /* Espace entre chaque lien */
+    gap: 20px;
 }
 
+/* 
+   Liens du menu
+*/
 .Links a {
-      text-decoration: none;
-      color: white;
-      font-size: 20px;
-      padding: 15px 20px;
-      border-radius: 10px;
-      transition: 0.3s;
-  }
 
+    /* Retire le soulignement */
+    text-decoration: none;
+
+    /* Couleur du texte */
+    color: white;
+
+    /* Taille du texte */
+    font-size: 20px;
+
+    /* Espacement intérieur */
+    padding: 15px 20px;
+
+    /* Coins arrondis */
+    border-radius: 10px;
+
+    /* Animation fluide */
+    transition: 0.3s;
+}
+
+/* 
+   Effet hover des liens
+*/
 .Links a:hover {
+
+    /* Change la couleur de fond */
     background-color: #111111;
 }
 
+/*
+   Ligne horizontale
+*/
 hr {
-width: 80%;
- border: none;
-height: 2px;
-background-color: #524BB1;
- margin-bottom: 30px;
+
+    /* Largeur de la ligne */
+    width: 80%;
+
+    /* Retire la bordure par défaut */
+    border: none;
+
+    /* Hauteur de la ligne */
+    height: 2px;
+
+    /* Couleur de la ligne */
+    background-color: #524BB1;
+
+    /* Marge en dessous */
+    margin-bottom: 30px;
 }
 
+/* 
+   Tableau des cartes
+ */
 table {
+
+    /* Centre le tableau */
     margin: 0 auto;
+
+    /* Couleur de fond */
     background-color: white;
+
+    /* Espacement intérieur */
     padding: 25px;
+
+    /* Coins arrondis */
     border-radius: 20px;
+
+    /* Bordure légère */
     border: 1px solid #cccccc;
+
+    /* Ombre */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
+/* 
+   Cases du tableau
+*/
 td {
+
+    /* Espacement entre les cartes */
     padding: 8px;
 }
+
+/* 
+   Bouton randomize
+*/
 
 /* https://www.w3schools.com/cssref/pr_class_cursor.php */
 /* https://www.w3schools.com/css/css_margin.asp */
 /* https://www.w3schools.com/cssref/pr_class_display.php */
+
 #randomize {
+
+    /* Rend le bouton en bloc */
     display: block;
+
+    /* Centre horizontalement */
     margin: 35px auto;
+
+    /* Couleur de fond */
     background-color: #524BB1;
+
+    /* Couleur du texte */
     color: white;
+
+    /* Retire la bordure */
     border: none;
+
+    /* Coins arrondis */
     border-radius: 12px;
+
+    /* Espacement intérieur */
     padding: 15px 25px;
+
+    /* Taille du texte */
     font-size: 18px;
+
+    /* Curseur en main */
     cursor: pointer;
+
+    /* Animation fluide */
     transition: 0.3s;
 }
 
+/* 
+   Effet hover du bouton
+=========================
 /* https://www.w3schools.com/css/css3_transitions.asp */
+
 #randomize:hover {
+
+    /* Change la couleur */
     background-color: #111111;
+
+    /* Agrandit légèrement */
     transform: scale(1.05);
 }
 
+/* 
+   Section score et temps
+ */
 .divscore {
-  
+
+    /* Largeur */
     width: 80%;
+
+    /* Centre la section */
     margin: 20px auto;
+
+    /* Espacement intérieur */
     padding: 20px;
+
+    /* Fond blanc */
     background-color: white;
+
+    /* Bordure légère */
     border: 1px solid #cccccc;
+
+    /* Coins arrondis */
     border-radius: 20px;
+
+    /* Ombre */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+
+    /* Active Flexbox */
     display: flex;
+
+    /* Centre horizontalement */
     justify-content: center;
+
+    /* Espace entre les éléments */
     gap: 60px;
+
+    /* Couleur du texte */
     color: #524BB1;
+
+    /* Taille du texte */
     font-size: 24px;
-    
 }
 
- .Titre {
-                margin-top: 35px;
-                text-align: center;
-                font-size: 50px;
-                color: #524BB1;
- }
+/* 
+   Titre principal
+ */
+.Titre {
 
+    /* Marge en haut */
+    margin-top: 35px;
+
+    /* Centre le texte */
+    text-align: center;
+
+    /* Taille du texte */
+    font-size: 50px;
+
+    /* Couleur */
+    color: #524BB1;
+}
+
+/* 
+   Description
+ */
 .Description {
-            margin-top: 35px;
-                font-size: 30px;
-                color: #524BB1;
+
+    /* Marge en haut */
+    margin-top: 35px;
+
+    /* Taille du texte */
+    font-size: 30px;
+
+    /* Couleur */
+    color: #524BB1;
 }
+
+/*
+   Menu déroulant
+ */
 
 /* https://www.w3schools.com/howto/howto_css_dropdown.asp */
 
 .dropdown {
+
+    /* Position relative pour le menu */
     position: relative;
+
+    /* Affiche en ligne */
     display: inline-block;
 }
 
+/* 
+   Bouton du dropdown
+*/
 .dropbtn {
+
+    /* Fond transparent */
     background-color: transparent;
+
+    /* Couleur du texte */
     color: white;
+
+    /* Taille du texte */
     font-size: 20px;
+
+    /* Espacement intérieur */
     padding: 15px 20px;
+
+    /* Retire la bordure */
     border: none;
-    border-radius: 10px; 
+
+    /* Coins arrondis */
+    border-radius: 10px;
+
+    /* Curseur main */
     cursor: pointer;
+
+    /* Animation fluide */
     transition: 0.3s;
 }
 
+/* 
+   Hover du bouton dropdown
+*/
 .dropbtn:hover {
+
+    /* Fond noir */
     background-color: #111111;
 }
 
+/* 
+   Contenu du dropdown
+ */
 .dropdown-content {
+
+    /* Caché par défaut */
     display: none;
+
+    /* Position absolue */
     position: absolute;
+
+    /* Distance du haut */
     top: 60px;
+
+    /* Aligné à droite */
     right: 0;
+
+    /* Fond blanc */
     background-color: white;
+
+    /* Largeur minimale */
     min-width: 220px;
-    border-radius: 12px 0px 0px 0px; 
+
+    /* Coins arrondis */
+    border-radius: 12px 0px 0px 0px;
+
+    /* Cache ce qui dépasse */
     overflow: hidden;
+
+    /* Ombre */
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+
+    /* Priorité d'affichage */
     z-index: 1;
 }
 
+/* 
+   Liens du dropdown
+ */
 .dropdown-content a {
+
+    /* Affichage en bloc */
     display: block;
+
+    /* Couleur du texte */
     color: #524BB1;
+
+    /* Espacement intérieur */
     padding: 14px 18px;
+
+    /* Retire le soulignement */
     text-decoration: none;
+
+    /* Animation fluide */
     transition: 0.3s;
 }
 
+/* 
+   Hover des liens dropdown
+ */
 .dropdown-content a:hover {
+
+    /* Fond violet */
     background-color: #524BB1;
+
+    /* Texte blanc */
     color: white;
 }
 
+/* 
+   Affiche le dropdown au hover
+ */
 .dropdown:hover .dropdown-content {
+
+    /* Affiche le menu */
     display: block;
 }
-
-
