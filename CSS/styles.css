@@ -55,11 +55,11 @@ ul li a:hover {
 }
 .right {
   float: right;
-  width: auto;
+  width: 50%;
 }
 .left {
   float: left;
-  width: auto;
+  width: 50%;
 }
 body {
   background-color: #ffffff;
