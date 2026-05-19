@@ -90,7 +90,8 @@ function cardCheck(cardNum) {
                 console.log(score)
                 preCard = 0
                 flip = 0
-                affiche.innerHTML = score
+                var scoreCard = score + "/ 18"
+                affiche.innerHTML = scoreCard
             } else {
                 preCard = 0
                 flip = 0
