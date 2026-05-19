@@ -103,6 +103,8 @@ function cardCheck(cardNum) {
                     document.getElementById("card" + cardNum).src = "../Images/cardBack.png"
                     document.getElementById("card" + preCardNum).src = "../Images/cardBack.png"
                 }, 1000);
+                scoreCard = score + "/ 18"
+                affiche.innerHTML = scoreCard
             }
         }
     } else {
