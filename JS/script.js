@@ -1,5 +1,6 @@
 let cardValue = ["../Images/Cards/Math/1.png", "../Images/Cards/Math/R1.png", "../Images/Cards/Math/2.png", "../Images/Cards/Math/R2.png", "../Images/Cards/Math/3.png", "../Images/Cards/Math/R3.png", "../Images/Cards/Math/4.png", "../Images/Cards/Math/R4.png", "../Images/Cards/Math/5.png", "../Images/Cards/Math/R5.png", "../Images/Cards/Math/6.png", "../Images/Cards/Math/R6.png", "../Images/Cards/Math/7.png", "../Images/Cards/Math/R7.png", "../Images/Cards/Math/8.png", "../Images/Cards/Math/R8.png", "../Images/Cards/Math/9.png", "../Images/Cards/Math/R9.png", "../Images/Cards/Math/10.png", "../Images/Cards/Math/R10.png", "../Images/Cards/Math/11.png", "../Images/Cards/Math/R11.png", "../Images/Cards/Math/12.png", "../Images/Cards/Math/R12.png", "../Images/Cards/Math/13.png", "../Images/Cards/Math/R13.png", "../Images/Cards/Math/14.png", "../Images/Cards/Math/R14.png", "../Images/Cards/Math/15.png", "../Images/Cards/Math/R15.png", "../Images/Cards/Math/16.png", "../Images/Cards/Math/R16.png", "../Images/Cards/Math/17.png", "../Images/Cards/Math/R17.png", "../Images/Cards/Math/18.png", "../Images/Cards/Math/R18.png"]
 let cardValueJeu = [""];
+var affiche = document.getElementById("divScore");
 console.log(cardValue.length)
 function randomizer() {
     document.getElementById("card1").src = "../Images/cardBack.png"
@@ -81,8 +82,7 @@ function cardCheck(cardNum) {
             console.log(score)
             preCard = 0
             flip = 0
-            affiche = document.getElementById("divScore");
-            scoreCard = score + "/18"
+            var scoreCard = score + "/18"
             affiche.innerHTML = scoreCard
         } else {
             preCard = 0
@@ -244,4 +244,9 @@ function flipCard36() {
     document.getElementById("card36").src = cardValueJeu[35]
     cardCheck("36")
 }
-
+let i = 0
+while (i != 1){
+    setTimeout(() => {
+        
+    }, 1000);
+}
