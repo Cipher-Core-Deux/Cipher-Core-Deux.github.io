@@ -1,4 +1,5 @@
 /*Source: https://stackoverflow.com/questions/8160494/how-to-make-a-whole-div-clickable-in-html-and-css-without-javascript#:~:text=12%20Answers,2%2C0892%2015%2029*/
+/*Convertis un lien en un gros boîte qu'on peut cliqué.*/
 .clickable-box {
   display: block;
   text-decoration: none;
@@ -19,6 +20,7 @@
 
 
 /*Source: https://stackoverflow.com/questions/72542295/how-do-i-set-an-image-to-the-left-of-a-paragraph#:~:text=1%20Comment&text=You'll%20need%20to%20remove,they%20way%20that%20you%20want.*/
+/**/
 .flex-container {
   display: flex;
   align-items: center;
@@ -28,6 +30,7 @@
 
 
 /*Source: https://www.w3schools.com/css/css_navbar_horizontal.asp*/
+/*Permet de crée un barre de navigation horizontal et le dresser pour regarder bon.*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -53,34 +56,38 @@ ul li a:hover {
 }
 
 
-
+/*Change la largeur d'un image*/
 .left-image {
   max-width: 300px;
 }
 
+/*Permet de changer la largeur d'un image et de le tasser d'un côté*/
 .right {
   float: right;
   width: 47.5%;
 }
-
 .left {
   float: left;
   width: 47.5%;
 }
 
+/*Change le couleur de l'arrière plan*/
 body {
   background-color: #ffffff;
   color: #000000;
 }
 
+/*Retire le soulignage des liens*/
 a {
   text-decoration: none;
 }
 
+/*Arrondis les coins d'images*/
 img {
   border-radius: 15px;
 }
 
+/*Ajoute un classification de h1 qui permet de stylisé cette classification.*/
 .h1 {
   background-color: #524BB1;
   border-radius: 15px 15px 0 0;
