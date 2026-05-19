@@ -1,93 +1,182 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Projet - π</title>
-        <link rel="stylesheet" href="CSS/styles.css">
-        <link rel="stylesheet" href="CSS/Paxstyles.css">
-        <link rel="icon" type="image/x-icon" href="Images/E-Claque-Logo-Seul.png">
-    </head>
-    <body>
-          <nav class="navigateur">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projet - π</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/Paxstyles.css">
+    <link rel="icon" type="image/x-icon" href="Images/E-Claque-Logo-Seul.png">
+</head>
+
+<body>
+    <nav class="navigateur">
 
         <img class="Logo" src="Images/E-Claque-Logo.png" alt="Logo E-Claque">
 
-        <div class="Links"> 
+        <div class="Links">
             <a href="index.html">Accueil</a>
             <a href="tutorial.html">Tutoriel</a>
             <a href="Àpropos.html"> À propos </a>
 
     </nav>
-        <script src="JS/script.js">
-            randomizer();
-        </script>
-        <br><br>
-        <centre>
-                   <h1 class="Titre"> Match - Mathématiques </h1>
+    <script>
+        document.getElementById("card1").src = "../Images/cardBack.png"
+        document.getElementById("card2").src = "../Images/cardBack.png"
+        document.getElementById("card3").src = "../Images/cardBack.png"
+        document.getElementById("card4").src = "../Images/cardBack.png"
+        document.getElementById("card5").src = "../Images/cardBack.png"
+        document.getElementById("card6").src = "../Images/cardBack.png"
+        document.getElementById("card7").src = "../Images/cardBack.png"
+        document.getElementById("card8").src = "../Images/cardBack.png"
+        document.getElementById("card9").src = "../Images/cardBack.png"
+        document.getElementById("card10").src = "../Images/cardBack.png"
+        document.getElementById("card11").src = "../Images/cardBack.png"
+        document.getElementById("card12").src = "../Images/cardBack.png"
+        document.getElementById("card13").src = "../Images/cardBack.png"
+        document.getElementById("card14").src = "../Images/cardBack.png"
+        document.getElementById("card15").src = "../Images/cardBack.png"
+        document.getElementById("card16").src = "../Images/cardBack.png"
+        document.getElementById("card17").src = "../Images/cardBack.png"
+        document.getElementById("card18").src = "../Images/cardBack.png"
+        document.getElementById("card19").src = "../Images/cardBack.png"
+        document.getElementById("card20").src = "../Images/cardBack.png"
+        document.getElementById("card21").src = "../Images/cardBack.png"
+        document.getElementById("card22").src = "../Images/cardBack.png"
+        document.getElementById("card23").src = "../Images/cardBack.png"
+        document.getElementById("card24").src = "../Images/cardBack.png"
+        document.getElementById("card25").src = "../Images/cardBack.png"
+        document.getElementById("card26").src = "../Images/cardBack.png"
+        document.getElementById("card27").src = "../Images/cardBack.png"
+        document.getElementById("card28").src = "../Images/cardBack.png"
+        document.getElementById("card29").src = "../Images/cardBack.png"
+        document.getElementById("card30").src = "../Images/cardBack.png"
+        document.getElementById("card31").src = "../Images/cardBack.png"
+        document.getElementById("card32").src = "../Images/cardBack.png"
+        document.getElementById("card33").src = "../Images/cardBack.png"
+        document.getElementById("card34").src = "../Images/cardBack.png"
+        document.getElementById("card35").src = "../Images/cardBack.png"
+        document.getElementById("card36").src = "../Images/cardBack.png"
+        let j;
+        cardValueJeu = [""];
+        for (let i = 0; i < 36; i++) {
+            j = parseInt(Math.floor(Math.random() * cardValue.length))
+            cardValueJeu[i] = cardValue[j]
+            cardValue.splice(j, 1)
+        }
+        cardValue = ["../Images/Cards/Math/1.png", "../Images/Cards/Math/R1.png", "../Images/Cards/Math/2.png", "../Images/Cards/Math/R2.png", "../Images/Cards/Math/3.png", "../Images/Cards/Math/R3.png", "../Images/Cards/Math/4.png", "../Images/Cards/Math/R4.png", "../Images/Cards/Math/5.png", "../Images/Cards/Math/R5.png", "../Images/Cards/Math/6.png", "../Images/Cards/Math/R6.png", "../Images/Cards/Math/7.png", "../Images/Cards/Math/R7.png", "../Images/Cards/Math/8.png", "../Images/Cards/Math/R8.png", "../Images/Cards/Math/9.png", "../Images/Cards/Math/R9.png", "../Images/Cards/Math/10.png", "../Images/Cards/Math/R10.png", "../Images/Cards/Math/11.png", "../Images/Cards/Math/R11.png", "../Images/Cards/Math/12.png", "../Images/Cards/Math/R12.png", "../Images/Cards/Math/13.png", "../Images/Cards/Math/R13.png", "../Images/Cards/Math/14.png", "../Images/Cards/Math/R14.png", "../Images/Cards/Math/15.png", "../Images/Cards/Math/R15.png", "../Images/Cards/Math/16.png", "../Images/Cards/Math/R16.png", "../Images/Cards/Math/17.png", "../Images/Cards/Math/R17.png", "../Images/Cards/Math/18.png", "../Images/Cards/Math/R18.png"]
+    </script>
+    <br><br>
+    <centre>
+        <h1 class="Titre"> Match - Mathématiques </h1>
 
-            
-            <input type="button" id="randomize" onclick="randomizer()" value="Changer les cart">
-            
-            <div class="divscore">
-        <h3>Temps : <span id="timer">0</span> s</h3>
-        <h3>Matches : <div id="divScore"></div></h3>
-            </div>
 
-            <hr>
-            <!--Permet d'insérer un tableau invisble qui contient le jeux et qui permet d'aligner chaques cartes.-->
-        <table border="0"> 
+        <input type="button" id="randomize" onclick="randomizer()" value="Changer les cart">
+
+        <div class="divscore">
+            <h3>Temps : <span id="timer">0</span> s</h3>
+            <h3>Matches : <div id="divScore"></div>
+            </h3>
+        </div>
+
+        <hr>
+        <!--Permet d'insérer un tableau invisble qui contient le jeux et qui permet d'aligner chaques cartes.-->
+        <table border="0">
             <tr>
-            <td style="text-align: center;"><input type="image" id="card1" onclick="flipCard1()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card2" onclick="flipCard2()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card3" onclick="flipCard3()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card4" onclick="flipCard4()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card5" onclick="flipCard5()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card6" onclick="flipCard6()" src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card1" onclick="flipCard1()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card2" onclick="flipCard2()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card3" onclick="flipCard3()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card4" onclick="flipCard4()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card5" onclick="flipCard5()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card6" onclick="flipCard6()"
+                        src="Images/cardBack.png" width="121"></td>
             </tr>
             <tr>
-            <td style="text-align: center;"><input type="image" id="card7" onclick="flipCard7()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card8" onclick="flipCard8()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card9" onclick="flipCard9()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card10" onclick="flipCard10()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card11" onclick="flipCard11()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card12" onclick="flipCard12()" src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card7" onclick="flipCard7()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card8" onclick="flipCard8()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card9" onclick="flipCard9()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card10" onclick="flipCard10()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card11" onclick="flipCard11()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card12" onclick="flipCard12()"
+                        src="Images/cardBack.png" width="121"></td>
             </tr>
             <tr>
-            <td style="text-align: center;"><input type="image" id="card13" onclick="flipCard13()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card14" onclick="flipCard14()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card15" onclick="flipCard15()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card16" onclick="flipCard16()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card17" onclick="flipCard17()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card18" onclick="flipCard18()" src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card13" onclick="flipCard13()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card14" onclick="flipCard14()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card15" onclick="flipCard15()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card16" onclick="flipCard16()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card17" onclick="flipCard17()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card18" onclick="flipCard18()"
+                        src="Images/cardBack.png" width="121"></td>
             </tr>
             <tr>
-            <td style="text-align: center;"><input type="image" id="card19" onclick="flipCard19()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card20" onclick="flipCard20()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card21" onclick="flipCard21()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card22" onclick="flipCard22()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card23" onclick="flipCard23()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card24" onclick="flipCard24()" src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card19" onclick="flipCard19()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card20" onclick="flipCard20()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card21" onclick="flipCard21()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card22" onclick="flipCard22()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card23" onclick="flipCard23()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card24" onclick="flipCard24()"
+                        src="Images/cardBack.png" width="121"></td>
             </tr>
             <tr>
-            <td style="text-align: center;"><input type="image" id="card25" onclick="flipCard25()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card26" onclick="flipCard26()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card27" onclick="flipCard27()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card28" onclick="flipCard28()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card29" onclick="flipCard29()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card30" onclick="flipCard30()" src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card25" onclick="flipCard25()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card26" onclick="flipCard26()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card27" onclick="flipCard27()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card28" onclick="flipCard28()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card29" onclick="flipCard29()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card30" onclick="flipCard30()"
+                        src="Images/cardBack.png" width="121"></td>
             </tr>
             <tr>
-            <td style="text-align: center;"><input type="image" id="card31" onclick="flipCard31()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card32" onclick="flipCard32()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card33" onclick="flipCard33()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card34" onclick="flipCard34()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card35" onclick="flipCard35()" src="Images/cardBack.png" width="121"></td>
-            <td style="text-align: center;"><input type="image" id="card36" onclick="flipCard36()" src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card31" onclick="flipCard31()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card32" onclick="flipCard32()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card33" onclick="flipCard33()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card34" onclick="flipCard34()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card35" onclick="flipCard35()"
+                        src="Images/cardBack.png" width="121"></td>
+                <td style="text-align: center;"><input type="image" id="card36" onclick="flipCard36()"
+                        src="Images/cardBack.png" width="121"></td>
             </tr>
         </table>
+<<<<<<< HEAD
+        <br><br>
+    </centre>
+    <script src="JS/script.js"></script>
+=======
             <br><br>
         </centre>
-        <script src="JS/script.js"></script>
+>>>>>>> 5159527d7ce0354dcedb8b8103bdaa66ebc5445b
 
-    </body>
+
+</body>
+
 </html>

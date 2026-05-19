@@ -9,6 +9,7 @@
   transition: box-shadow 0.3s;
   width: 100vw;
 }
+
 .clickable-box:hover {
   background-color: #f0f0f0;
   cursor: pointer;
@@ -34,9 +35,11 @@ ul {
   overflow: hidden;
   background-color: #524BB1;
 }
+
 ul li {
   float: left;
 }
+
 ul li a {
   display: block;
   color: white;
@@ -44,6 +47,7 @@ ul li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+
 ul li a:hover {
   background-color: #111111;
 }
@@ -53,24 +57,30 @@ ul li a:hover {
 .left-image {
   max-width: 300px;
 }
+
 .right {
   float: right;
   width: 47.5%;
 }
+
 .left {
   float: left;
   width: 47.5%;
 }
+
 body {
   background-color: #ffffff;
   color: #000000;
 }
+
 a {
   text-decoration: none;
 }
+
 img {
   border-radius: 15px;
 }
+
 .h1 {
   background-color: #524BB1;
   border-radius: 15px 15px 0 0;
