@@ -53,9 +53,9 @@ let score = 0
 let flip = 0
 let preCardNum = ""
 function cardCheck(cardNum) {
-    card = cardValue.indexOf(cardValueJeu[cardNum])
+    card = cardValue.indexOf(cardValueJeu[cardNum-1])
     console.log(card)
-    console.log(cardValue.indexOf(cardValueJeu[cardNum]))
+    console.log(cardValue.indexOf(cardValueJeu[cardNum-1]))
     console.log(cardValueJeu[cardNum])
     console.log(preCard)
     console.log(score)
