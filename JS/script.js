@@ -81,6 +81,9 @@ function cardCheck(cardNum) {
             console.log(score)
             preCard = 0
             flip = 0
+            affiche = document.getElementById("divScore");
+            scoreCard = score + "/18"
+            affiche.innerHTML = scoreCard
         } else {
             preCard = 0
             flip = 0
@@ -242,6 +245,3 @@ function flipCard36() {
     cardCheck("36")
 }
 
-affiche = document.getElementById("divScore");
-scoreCard = score + "/18"
-affiche.innerHTML = scoreCard
