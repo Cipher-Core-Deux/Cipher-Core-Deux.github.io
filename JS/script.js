@@ -74,8 +74,7 @@ function cardCheck(cardNum) {
     console.log(cardValueJeu[cardNum - 1])
     console.log(preCard)
     console.log(score)
-    if (flip == 1) {
-        if (card % 2 == 0) {
+    if (card % 2 == 0) {
             console.log("pair")
             for (var i = 0; i <= 36; i++) {
                 if (cardValueJeu[i].includes("R")) {
@@ -93,6 +92,7 @@ function cardCheck(cardNum) {
                 }
             }
         }
+    if (flip == 1) {
         if (card % 2 == 0) {
             if (preCard == card + 1) {
                 score++
