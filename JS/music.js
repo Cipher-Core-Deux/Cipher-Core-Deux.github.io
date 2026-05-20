@@ -1,17 +1,21 @@
-var music = document.getElementById("music");
+window.onload = function () {
 
-if (!music) {
+    var music = document.getElementById("music");
 
-    music = document.createElement("audio");
+    if (!music) {
 
-    music.id = "music";
-    music.src = "Audio/backgroundMusic.mp3";
+        music = document.createElement("audio");
 
-    music.autoplay = true;
-    music.loop = true;
+        music.id = "music";
+        music.src = "Audio/backgroundMusic.mp3";
 
-    document.body.appendChild(music);
+        music.autoplay = true;
+        music.loop = true;
 
-    music.play();
+        document.body.appendChild(music);
 
-}
+        music.play();
+
+    }
+
+};
