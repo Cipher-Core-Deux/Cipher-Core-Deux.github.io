@@ -74,15 +74,17 @@ function cardCheck(cardNum) {
     console.log(preCard)
     console.log(score)
     if (flip == 1) {
-        if (card % 2 == 0)  {
-            for (var i=0; i<=36; i++) {
+        if (card % 2 == 0) {
+            console.log("pair")
+            for (var i = 0; i <= 36; i++) {
                 if (cardValueJeu[i].includes("R")) {
                     console.log("cheese")
                     document.getElementById("card" + i).src = cardValueJeu[i]
                 }
             }
         } else {
-            for (var i=0; i<36; i++) {
+            console.log("Impair")
+            for (var i = 0; i < 36; i++) {
                 if (!cardValueJeu[i].includes("R")) {
                     console.log("cheese2")
                     document.getElementById("card" + i).src = cardValueJeu[i]
