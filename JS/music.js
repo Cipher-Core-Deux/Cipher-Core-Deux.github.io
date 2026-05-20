@@ -1,16 +1,17 @@
-var music = new Audio("Audio/backgroundMusic.mp3");
+/* https://discourse.webflow.com/t/add-background-music-to-page/169554/3 */ 
 
-music.loop = true;
+var source = "Audio/backgroundMusic.mp3" 
+    
+var audio = document.createElement("audio"); 
 
-var savedTime = sessionStorage.getItem("musicTime");
+audio.autoplay = true; 
 
-if (savedTime) {
-    music.currentTime = savedTime;
-}
+audio.load() 
+    
+audio.addEventListener("load", function() { 
+    
+     audio.play(); debounce == true 
 
-music.play();
+}, true); 
 
-// Save song time every second
-setInterval(function () {
-    sessionStorage.setItem("musicTime", music.currentTime);
-}, 1000);
+audio.src = source;
