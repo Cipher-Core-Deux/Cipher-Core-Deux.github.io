@@ -74,24 +74,6 @@ function cardCheck(cardNum) {
     console.log(cardValueJeu[cardNum - 1])
     console.log(preCard)
     console.log(score)
-    if (card % 2 == 0) {
-            console.log("pair")
-            for (var i = 0; i <= 36; i++) {
-                if (cardValueJeu[i].includes("R")) {
-                    console.log("cheese")
-                    document.getElementById("card" + i).src = cardValueJeu[i]
-                    cardsTurned = cardsTurned + i
-                }
-            }
-        } else {
-            console.log("Impair")
-            for (var i = 0; i < 36; i++) {
-                if (!cardValueJeu[i].includes("R")) {
-                    console.log("cheese2")
-                    document.getElementById("card" + i).src = cardValueJeu[i]
-                }
-            }
-        }
     if (flip == 1) {
         if (card % 2 == 0) {
             if (preCard == card + 1) {
@@ -127,6 +109,24 @@ function cardCheck(cardNum) {
             }
         }
     } else {
+        if (card % 2 == 0) {
+            console.log("pair")
+            for (var i = 0; i <= 36; i++) {
+                if (cardValueJeu[i].includes("R")) {
+                    console.log("cheese")
+                    document.getElementById("card" + i).src = cardValueJeu[i]
+                    cardsTurned = cardsTurned + i
+                }
+            }
+        } else {
+            console.log("Impair")
+            for (var i = 0; i < 36; i++) {
+                if (!cardValueJeu[i].includes("R")) {
+                    console.log("cheese2")
+                    document.getElementById("card" + i).src = cardValueJeu[i]
+                }
+            }
+        }
         flip = 1
         preCard = card
         preCardNum = cardNum
