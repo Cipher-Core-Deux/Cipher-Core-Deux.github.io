@@ -1,16 +1,17 @@
-/* https://discourse.webflow.com/t/add-background-music-to-page/169554/3 */
+var music = document.getElementById("music");
 
-var source = "Audio/backgroundMusic.mp3"
- var audio = document.createElement("audio");
- //
- audio.autoplay = true;
- //
- audio.load()
- var debounce = false
- audio.addEventListener("load", function() { 
-  if (debounce == false) {
-     audio.play();
-   debounce == true
-  }
- }, true);
- audio.src = source;
+if (!music) {
+
+    music = document.createElement("audio");
+
+    music.id = "music";
+    music.src = "Audio/backgroundMusic.mp3";
+
+    music.autoplay = true;
+    music.loop = true;
+
+    document.body.appendChild(music);
+
+    music.play();
+
+}
