@@ -66,26 +66,6 @@ let score = 0
 let flip = 0
 let preCardNum = ""
 let cardsTurned = [""]
-function cardFlip(cardNum) {
-    if (card % 2 == 0) {
-        console.log("pair")
-        for (var i = 0; i <= 36; i++) {
-            if (cardValueJeu[i].includes("R")) {
-                console.log("cheese")
-                document.getElementById("card" + i).src = cardValueJeu[i]
-                cardsTurned = cardsTurned + i
-            }
-        }
-    } else {
-        console.log("Impair")
-        for (var i = 0; i < 36; i++) {
-            if (!cardValueJeu[i].includes("R")) {
-                console.log("cheese2")
-                document.getElementById("card" + i).src = cardValueJeu[i]
-            }
-        }
-    }
-}
 function cardCheck(cardNum) {
     console.log(cardNum)
     card = cardValue.indexOf(cardValueJeu[cardNum - 1])
@@ -129,7 +109,6 @@ function cardCheck(cardNum) {
             }
         }
     } else {
-        cardFlip(cardNum)
         flip = 1
         preCard = card
         preCardNum = cardNum
