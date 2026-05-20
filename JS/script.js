@@ -87,7 +87,6 @@ function cardFlip(cardNum) {
     }
 }
 function cardCheck(cardNum) {
-    cardFlip(cardNum)
     console.log(cardNum)
     card = cardValue.indexOf(cardValueJeu[cardNum - 1])
     console.log(card)
@@ -130,6 +129,7 @@ function cardCheck(cardNum) {
             }
         }
     } else {
+        cardFlip(cardNum)
         flip = 1
         preCard = card
         preCardNum = cardNum
