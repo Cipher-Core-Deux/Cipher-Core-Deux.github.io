@@ -81,6 +81,13 @@ function cardCheck(cardNum) {
                     document.getElementById("card" + i).src = cardValueJeu[i]
                 }
             }
+        } else {
+            for (var i=0; i<36; i++) {
+                if (cardValueJeu[i].includes("R")) {
+                    console.log("cheese")
+                    document.getElementById("card" + i).src = cardValueJeu
+                }
+            }
         }
         if (card % 2 == 0) {
             if (preCard == card + 1) {
