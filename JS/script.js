@@ -74,6 +74,13 @@ function cardCheck(cardNum) {
     console.log(preCard)
     console.log(score)
     if (flip == 1) {
+        if (card % 2 == 0)  {
+            for (var i=0; i<36; i+1) {
+                if (document.getElementById("card" + i).src == cardValue[i].contains(R)) {
+
+                }
+            }
+        }
         if (card % 2 == 0) {
             if (preCard == card + 1) {
                 score++
