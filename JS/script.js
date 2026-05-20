@@ -87,7 +87,7 @@ function cardCheck(cardNum) {
             for (var i=0; i<36; i++) {
                 if (cardValueJeu[i].includes("R")) {
                     console.log("cheese2")
-                    document.getElementById("card" + i).src = cardValueJeu
+                    document.getElementById("card" + i).src = cardValueJeu[i]
                 }
             }
         }
