@@ -79,13 +79,11 @@ function cardCheck(cardNum) {
                 if (cardValueJeu[i].includes("R")) {
                     console.log("cheese")
                     document.getElementById("card" + i).src = cardValueJeu[i]
-                } else {
-                    document.getElementById("card" + i).src = document.getElementById("card" + i).src
                 }
             }
         } else {
             for (var i=0; i<36; i++) {
-                if (cardValueJeu[i].includes("R")) {
+                if (!cardValueJeu[i].includes("R")) {
                     console.log("cheese2")
                     document.getElementById("card" + i).src = cardValueJeu[i]
                 }
