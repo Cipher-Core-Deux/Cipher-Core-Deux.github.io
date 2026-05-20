@@ -10,7 +10,7 @@ audio.load()
     
 audio.addEventListener("load", function() { 
     
-     audio.play(); debounce == true 
+     audio.play(); 
 
 }, true); 
 
