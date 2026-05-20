@@ -76,7 +76,7 @@ function cardCheck(cardNum) {
     if (flip == 1) {
         if (card % 2 == 0)  {
             for (var i=0; i<36; i+1) {
-                if (document.getElementById("card" + i).src == cardValue[i].contains(R)) {
+                if (cardValueJeu[i].contains(R)) {
                     console.log("cheese")
                 }
             }
