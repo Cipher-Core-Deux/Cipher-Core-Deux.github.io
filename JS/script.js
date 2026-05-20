@@ -75,7 +75,7 @@ function cardCheck(cardNum) {
     console.log(score)
     if (flip == 1) {
         if (card % 2 == 0)  {
-            for (var i=0; i<36; i+1) {
+            for (var i=0; i<=36; i++) {
                 if (cardValueJeu[i].includes("R")) {
                     console.log("cheese")
                     document.getElementById("card" + i).src = cardValueJeu[i]
