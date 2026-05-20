@@ -6,7 +6,11 @@ var source = "Audio/backgroundMusic.mp3"
  audio.autoplay = true;
  //
  audio.load()
+ var debounce = false
  audio.addEventListener("load", function() { 
-     audio.play(); 
+  if (debounce == false) {
+     audio.play();
+   debounce == true
+  }
  }, true);
  audio.src = source;
