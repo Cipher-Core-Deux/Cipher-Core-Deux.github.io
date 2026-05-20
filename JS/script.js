@@ -65,6 +65,7 @@ let card = 0
 let score = 0
 let flip = 0
 let preCardNum = ""
+let cardsTurned = 0
 function cardCheck(cardNum) {
     console.log(cardNum)
     card = cardValue.indexOf(cardValueJeu[cardNum - 1])
@@ -80,6 +81,7 @@ function cardCheck(cardNum) {
                 if (cardValueJeu[i].includes("R")) {
                     console.log("cheese")
                     document.getElementById("card" + i).src = cardValueJeu[i]
+                    cardsTurned++
                 }
             }
         } else {
