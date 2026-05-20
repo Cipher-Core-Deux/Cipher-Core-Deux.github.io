@@ -78,6 +78,7 @@ function cardCheck(cardNum) {
             for (var i=0; i<36; i+1) {
                 if (cardValueJeu[i].includes("R")) {
                     console.log("cheese")
+                    document.getElementById("card" + i).src = cardValueJeu[i]
                 }
             }
         }
