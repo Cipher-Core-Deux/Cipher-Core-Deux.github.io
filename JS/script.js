@@ -118,7 +118,7 @@ function cardCheck(cardNum) {
         flip = 1
         preCard = card
         preCardNum = cardNum
-        scoreCard = score + "/ 18"
+        scoreCard = "Matches : " + score + "/ 18"
         affiche.innerHTML = scoreCard
     }
 }
