@@ -1,33 +1,18 @@
-window.onload = function () {
+var music = new Audio("Audio/backgroundMusic.mp3");
 
-    var music = document.getElementById("music");
+music.loop = true;
 
-    if (!music) {
+// Get saved song time
+var savedTime = sessionStorage.getItem("musicTime");
 
-        music = document.createElement("audio");
+if (savedTime) {
+    music.currentTime = savedTime;
+}
 
-        music.id = "music";
-        music.src = "Audio/backgroundMusic.mp3";
+// Play music
+music.play();
 
-        music.autoplay = true;
-        music.loop = true;
-
-        // Continue from saved time
-        var savedTime = sessionStorage.getItem("musicTime");
-
-        if (savedTime) {
-            music.currentTime = savedTime;
-        }
-
-        document.body.appendChild(music);
-
-        music.play();
-
-        // Save current time while song plays
-        setInterval(function () {
-            sessionStorage.setItem("musicTime", music.currentTime);
-        }, 1000);
-
-    }
-
-};
+// Save song time every second
+setInterval(function () {
+    sessionStorage.setItem("musicTime", music.currentTime);
+}, 1000);
