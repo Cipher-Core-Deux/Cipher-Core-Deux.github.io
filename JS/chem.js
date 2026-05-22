@@ -1,298 +1,263 @@
-let valeursCartes = ["../Images/Cards/Chem/1.png", "../Images/Cards/Chem/R1.png", "../Images/Cards/Chem/2.png", "../Images/Cards/Chem/R2.png", "../Images/Cards/Chem/3.png", "../Images/Cards/Chem/R3.png", "../Images/Cards/Chem/4.png", "../Images/Cards/Chem/R4.png", "../Images/Cards/Chem/5.png", "../Images/Cards/Chem/R5.png", "../Images/Cards/Chem/6.png", "../Images/Cards/Chem/R6.png", "../Images/Cards/Chem/7.png", "../Images/Cards/Chem/R7.png", "../Images/Cards/Chem/8.png", "../Images/Cards/Chem/R8.png", "../Images/Cards/Chem/9.png", "../Images/Cards/Chem/R9.png", "../Images/Cards/Chem/10.png", "../Images/Cards/Chem/R10.png", "../Images/Cards/Chem/11.png", "../Images/Cards/Chem/R11.png", "../Images/Cards/Chem/12.png", "../Images/Cards/Chem/R12.png", "../Images/Cards/Chem/13.png", "../Images/Cards/Chem/R13.png", "../Images/Cards/Chem/14.png", "../Images/Cards/Chem/R14.png", "../Images/Cards/Chem/15.png", "../Images/Cards/Chem/R15.png", "../Images/Cards/Chem/16.png", "../Images/Cards/Chem/R16.png", "../Images/Cards/Chem/17.png", "../Images/Cards/Chem/R17.png", "../Images/Cards/Chem/18.png", "../Images/Cards/Chem/R18.png"];
-
-let valeursCartesJeu = [""];
-
-console.log(valeursCartes.length);
-
+let cardValue = ["../Images/Cards/Chem/1.png", "../Images/Cards/Chem/R1.png", "../Images/Cards/Chem/2.png", "../Images/Cards/Chem/R2.png", "../Images/Cards/Chem/3.png", "../Images/Cards/Chem/R3.png", "../Images/Cards/Chem/4.png", "../Images/Cards/Chem/R4.png", "../Images/Cards/Chem/5.png", "../Images/Cards/Chem/R5.png", "../Images/Cards/Chem/6.png", "../Images/Cards/Chem/R6.png", "../Images/Cards/Chem/7.png", "../Images/Cards/Chem/R7.png", "../Images/Cards/Chem/8.png", "../Images/Cards/Chem/R8.png", "../Images/Cards/Chem/9.png", "../Images/Cards/Chem/R9.png", "../Images/Cards/Chem/10.png", "../Images/Cards/Chem/R10.png", "../Images/Cards/Chem/11.png", "../Images/Cards/Chem/R11.png", "../Images/Cards/Chem/12.png", "../Images/Cards/Chem/R12.png", "../Images/Cards/Chem/13.png", "../Images/Cards/Chem/R13.png", "../Images/Cards/Chem/14.png", "../Images/Cards/Chem/R14.png", "../Images/Cards/Chem/15.png", "../Images/Cards/Chem/R15.png", "../Images/Cards/Chem/16.png", "../Images/Cards/Chem/R16.png", "../Images/Cards/Chem/17.png", "../Images/Cards/Chem/R17.png", "../Images/Cards/Chem/18.png", "../Images/Cards/Chem/R18.png"]
+let cardValueJeu = [""];
+var affiche = document.getElementById("divScore");
+var scoreCard = "Matches : 0 / 18"
+affiche.innerHTML = scoreCard
+console.log(cardValue.length)
+let j;
+cardValueJeu = [""];
+for (let i = 0; i < 36; i++) {
+    j = parseInt(Math.floor(Math.random() * cardValue.length))
+    cardValueJeu[i] = cardValue[j]
+    cardValue.splice(j, 1)
+}
+cardValue = ["../Images/Cards/Chem/1.png", "../Images/Cards/Chem/R1.png", "../Images/Cards/Chem/2.png", "../Images/Cards/Chem/R2.png", "../Images/Cards/Chem/3.png", "../Images/Cards/Chem/R3.png", "../Images/Cards/Chem/4.png", "../Images/Cards/Chem/R4.png", "../Images/Cards/Chem/5.png", "../Images/Cards/Chem/R5.png", "../Images/Cards/Chem/6.png", "../Images/Cards/Chem/R6.png", "../Images/Cards/Chem/7.png", "../Images/Cards/Chem/R7.png", "../Images/Cards/Chem/8.png", "../Images/Cards/Chem/R8.png", "../Images/Cards/Chem/9.png", "../Images/Cards/Chem/R9.png", "../Images/Cards/Chem/10.png", "../Images/Cards/Chem/R10.png", "../Images/Cards/Chem/11.png", "../Images/Cards/Chem/R11.png", "../Images/Cards/Chem/12.png", "../Images/Cards/Chem/R12.png", "../Images/Cards/Chem/13.png", "../Images/Cards/Chem/R13.png", "../Images/Cards/Chem/14.png", "../Images/Cards/Chem/R14.png", "../Images/Cards/Chem/15.png", "../Images/Cards/Chem/R15.png", "../Images/Cards/Chem/16.png", "../Images/Cards/Chem/R16.png", "../Images/Cards/Chem/17.png", "../Images/Cards/Chem/R17.png", "../Images/Cards/Chem/18.png", "../Images/Cards/Chem/R18.png"]
 function randomizer() {
-    let indexAleatoire;
-    valeursCartesJeu = [""];
-
-    for (let index = 0; index < 36; index++) {
-        indexAleatoire = parseInt(Math.floor(Math.random() * valeursCartes.length));
-
-        console.log(indexAleatoire + " " + valeursCartes[indexAleatoire]);
-
-        valeursCartesJeu[index] = valeursCartes[indexAleatoire];
-
-        console.log(valeursCartes.toString());
-        console.log(valeursCartesJeu.toString());
-
-        valeursCartes.splice(indexAleatoire, 1);
+    document.getElementById("card1").src = "../Images/cardBack.png"
+    document.getElementById("card2").src = "../Images/cardBack.png"
+    document.getElementById("card3").src = "../Images/cardBack.png"
+    document.getElementById("card4").src = "../Images/cardBack.png"
+    document.getElementById("card5").src = "../Images/cardBack.png"
+    document.getElementById("card6").src = "../Images/cardBack.png"
+    document.getElementById("card7").src = "../Images/cardBack.png"
+    document.getElementById("card8").src = "../Images/cardBack.png"
+    document.getElementById("card9").src = "../Images/cardBack.png"
+    document.getElementById("card10").src = "../Images/cardBack.png"
+    document.getElementById("card11").src = "../Images/cardBack.png"
+    document.getElementById("card12").src = "../Images/cardBack.png"
+    document.getElementById("card13").src = "../Images/cardBack.png"
+    document.getElementById("card14").src = "../Images/cardBack.png"
+    document.getElementById("card15").src = "../Images/cardBack.png"
+    document.getElementById("card16").src = "../Images/cardBack.png"
+    document.getElementById("card17").src = "../Images/cardBack.png"
+    document.getElementById("card18").src = "../Images/cardBack.png"
+    document.getElementById("card19").src = "../Images/cardBack.png"
+    document.getElementById("card20").src = "../Images/cardBack.png"
+    document.getElementById("card21").src = "../Images/cardBack.png"
+    document.getElementById("card22").src = "../Images/cardBack.png"
+    document.getElementById("card23").src = "../Images/cardBack.png"
+    document.getElementById("card24").src = "../Images/cardBack.png"
+    document.getElementById("card25").src = "../Images/cardBack.png"
+    document.getElementById("card26").src = "../Images/cardBack.png"
+    document.getElementById("card27").src = "../Images/cardBack.png"
+    document.getElementById("card28").src = "../Images/cardBack.png"
+    document.getElementById("card29").src = "../Images/cardBack.png"
+    document.getElementById("card30").src = "../Images/cardBack.png"
+    document.getElementById("card31").src = "../Images/cardBack.png"
+    document.getElementById("card32").src = "../Images/cardBack.png"
+    document.getElementById("card33").src = "../Images/cardBack.png"
+    document.getElementById("card34").src = "../Images/cardBack.png"
+    document.getElementById("card35").src = "../Images/cardBack.png"
+    document.getElementById("card36").src = "../Images/cardBack.png"
+    let j;
+    cardValueJeu = [""];
+    for (let i = 0; i < 36; i++) {
+        j = parseInt(Math.floor(Math.random() * cardValue.length))
+        cardValueJeu[i] = cardValue[j]
+        cardValue.splice(j, 1)
     }
-
-    valeursCartes = ["../Images/Cards/Chem/1.png", "../Images/Cards/Chem/R1.png", "../Images/Cards/Chem/2.png", "../Images/Cards/Chem/R2.png", "../Images/Cards/Chem/3.png", "../Images/Cards/Chem/R3.png", "../Images/Cards/Chem/4.png", "../Images/Cards/Chem/R4.png", "../Images/Cards/Chem/5.png", "../Images/Cards/Chem/R5.png", "../Images/Cards/Chem/6.png", "../Images/Cards/Chem/R6.png", "../Images/Cards/Chem/7.png", "../Images/Cards/Chem/R7.png", "../Images/Cards/Chem/8.png", "../Images/Cards/Chem/R8.png", "../Images/Cards/Chem/9.png", "../Images/Cards/Chem/R9.png", "../Images/Cards/Chem/10.png", "../Images/Cards/Chem/R10.png", "../Images/Cards/Chem/11.png", "../Images/Cards/Chem/R11.png", "../Images/Cards/Chem/12.png", "../Images/Cards/Chem/R12.png", "../Images/Cards/Chem/13.png", "../Images/Cards/Chem/R13.png", "../Images/Cards/Chem/14.png", "../Images/Cards/Chem/R14.png", "../Images/Cards/Chem/15.png", "../Images/Cards/Chem/R15.png", "../Images/Cards/Chem/16.png", "../Images/Cards/Chem/R16.png", "../Images/Cards/Chem/17.png", "../Images/Cards/Chem/R17.png", "../Images/Cards/Chem/18.png", "../Images/Cards/Chem/R18.png"];
+    cardValue = ["../Images/Cards/Chem/1.png", "../Images/Cards/Chem/R1.png", "../Images/Cards/Chem/2.png", "../Images/Cards/Chem/R2.png", "../Images/Cards/Chem/3.png", "../Images/Cards/Chem/R3.png", "../Images/Cards/Chem/4.png", "../Images/Cards/Chem/R4.png", "../Images/Cards/Chem/5.png", "../Images/Cards/Chem/R5.png", "../Images/Cards/Chem/6.png", "../Images/Cards/Chem/R6.png", "../Images/Cards/Chem/7.png", "../Images/Cards/Chem/R7.png", "../Images/Cards/Chem/8.png", "../Images/Cards/Chem/R8.png", "../Images/Cards/Chem/9.png", "../Images/Cards/Chem/R9.png", "../Images/Cards/Chem/10.png", "../Images/Cards/Chem/R10.png", "../Images/Cards/Chem/11.png", "../Images/Cards/Chem/R11.png", "../Images/Cards/Chem/12.png", "../Images/Cards/Chem/R12.png", "../Images/Cards/Chem/13.png", "../Images/Cards/Chem/R13.png", "../Images/Cards/Chem/14.png", "../Images/Cards/Chem/R14.png", "../Images/Cards/Chem/15.png", "../Images/Cards/Chem/R15.png", "../Images/Cards/Chem/16.png", "../Images/Cards/Chem/R16.png", "../Images/Cards/Chem/17.png", "../Images/Cards/Chem/R17.png", "../Images/Cards/Chem/18.png", "../Images/Cards/Chem/R18.png"]
+    affiche.innerHTML = "Matches : 0 / 18"
+    score = 0
 }
-
-let cartePrecedente;
-let carteActuelle = 0;
-let score = 0;
-let carteRetournee = 0;
-
+let preCard = 0
+let card = 0
+let score = 0
+let flip = 0
+let preCardNum = ""
+let cardsTurned = [""]
+function cardCheck(cardNum) {
+    console.log(cardNum)
+    card = cardValue.indexOf(cardValueJeu[cardNum - 1])
+    console.log(card)
+    console.log(cardValue[cardValue.indexOf(cardValueJeu[cardNum - 1])])
+    console.log(cardValueJeu[cardNum - 1])
+    console.log(preCard)
+    console.log(score)
+    if (flip == 1) {
+        if (card % 2 == 0) {
+            if (preCard == card + 1) {
+                score++
+                console.log(score)
+                preCard = 0
+                flip = 0
+            } else {
+                preCard = 0
+                flip = 0
+                setTimeout(() => {
+                    document.getElementById("card" + cardNum).src = "../Images/cardBack.png"
+                    document.getElementById("card" + preCardNum).src = "../Images/cardBack.png"
+                }, 1000);
+            }
+        } else {
+            if (preCard == card - 1) {
+                score++
+                console.log(score)
+                preCard = 0
+                flip = 0
+                scoreCard = "Matches : " + score + " / 18"
+                affiche.innerHTML = scoreCard
+            } else {
+                preCard = 0
+                flip = 0
+                setTimeout(() => {
+                    document.getElementById("card" + cardNum).src = "../Images/cardBack.png"
+                    document.getElementById("card" + preCardNum).src = "../Images/cardBack.png"
+                }, 1000);
+                scoreCard = "Matches : " + score + " / 18"
+                affiche.innerHTML = scoreCard
+            }
+        }
+    } else {
+        flip = 1
+        preCard = card
+        preCardNum = cardNum
+        scoreCard = "Matches : " + score + " / 18"
+        affiche.innerHTML = scoreCard
+    }
+}
 function flipCard1() {
-    document.getElementById("card1").src = valeursCartesJeu[0];
-    carteActuelle = valeursCartes.indexOf(valeursCartesJeu[0]);
-
-    console.log(carteActuelle);
-
-    if (carteRetournee = 1) {
-        if (cartePrecedente = carteActuelle) {
-            score++;
-        } else {
-            document.getElementById("card8").src = "../Images/cardBack";
-        }
-    } else {
-        carteRetournee = 0;
-        cartePrecedente = carteActuelle;
-        document.getElementById("card1").src = "../Images/cardBack";
-    }
+    //source = https://www.w3schools.com/JSREF/prop_pushbutton_value.asp
+    document.getElementById("card1").src = cardValueJeu[0]
+    cardCheck("1")
 }
-
 function flipCard2() {
-    document.getElementById("card2").src = valeursCartesJeu[1];
-    carteActuelle = valeursCartes.indexOf(valeursCartesJeu[1]);
-
-    console.log(carteActuelle);
-
-    if (carteRetournee = 1) {
-        if (cartePrecedente = carteActuelle) {
-            score++;
-        } else {
-            document.getElementById("card8").src = "../Images/cardBack";
-        }
-    } else {
-        carteRetournee = 0;
-        cartePrecedente = carteActuelle;
-        document.getElementById("card2").src = "../Images/cardBack";
-    }
+    document.getElementById("card2").src = cardValueJeu[1]
+    cardCheck("2")
 }
-
 function flipCard3() {
-    document.getElementById("card3").src = valeursCartesJeu[2];
-    carteActuelle = valeursCartes.indexOf(valeursCartesJeu[2]);
-
-    console.log(carteActuelle);
-
-    if (carteRetournee = 1) {
-        if (cartePrecedente = carteActuelle) {
-            score++;
-        } else {
-            document.getElementById("card8").src = "../Images/cardBack";
-        }
-    } else {
-        carteRetournee = 0;
-        cartePrecedente = carteActuelle;
-        document.getElementById("card3").src = "../Images/cardBack";
-    }
+    document.getElementById("card3").src = cardValueJeu[2]
+    cardCheck("3")
 }
-
 function flipCard4() {
-    document.getElementById("card4").src = valeursCartesJeu[3];
-    carteActuelle = valeursCartes.indexOf(valeursCartesJeu[3]);
-
-    console.log(carteActuelle);
-
-    if (carteRetournee = 1) {
-        if (cartePrecedente = carteActuelle) {
-            score++;
-        } else {
-            document.getElementById("card8").src = "../Images/cardBack";
-        }
-    } else {
-        carteRetournee = 0;
-        cartePrecedente = carteActuelle;
-        document.getElementById("card4").src = "../Images/cardBack";
-    }
+    document.getElementById("card4").src = cardValueJeu[3]
+    cardCheck("4")
 }
-
 function flipCard5() {
-    document.getElementById("card5").src = valeursCartesJeu[4];
-    carteActuelle = valeursCartes.indexOf(valeursCartesJeu[4]);
-
-    console.log(carteActuelle);
-
-    if (carteRetournee = 1) {
-        if (cartePrecedente = carteActuelle) {
-            score++;
-        } else {
-            document.getElementById("card8").src = "../Images/cardBack";
-        }
-    } else {
-        carteRetournee = 0;
-        cartePrecedente = carteActuelle;
-        document.getElementById("card5").src = "../Images/cardBack";
-    }
+    document.getElementById("card5").src = cardValueJeu[4]
+    cardCheck("5")
 }
-
 function flipCard6() {
-    document.getElementById("card6").src = valeursCartesJeu[5];
-    carteActuelle = valeursCartes.indexOf(valeursCartesJeu[5]);
-
-    console.log(carteActuelle);
-
-    if (carteRetournee = 1) {
-        if (cartePrecedente = carteActuelle) {
-            score++;
-        } else {
-            document.getElementById("card8").src = "../Images/cardBack";
-        }
-    } else {
-        carteRetournee = 0;
-        cartePrecedente = carteActuelle;
-        document.getElementById("card6").src = "../Images/cardBack";
-    }
+    document.getElementById("card6").src = cardValueJeu[5]
+    cardCheck("6")
 }
-
 function flipCard7() {
-    document.getElementById("card7").src = valeursCartesJeu[6];
-    carteActuelle = valeursCartes.indexOf(valeursCartesJeu[6]);
-
-    console.log(carteActuelle);
-
-    if (carteRetournee = 1) {
-        if (cartePrecedente = carteActuelle) {
-            score++;
-        } else {
-            document.getElementById("card8").src = "../Images/cardBack";
-        }
-    } else {
-        carteRetournee = 0;
-        cartePrecedente = carteActuelle;
-        document.getElementById("card7").src = "../Images/cardBack";
-    }
+    document.getElementById("card7").src = cardValueJeu[6]
+    cardCheck("7")
 }
-
 function flipCard8() {
-    document.getElementById("card8").src = valeursCartesJeu[7];
-    carteActuelle = valeursCartes.indexOf(valeursCartesJeu[7]);
-
-    console.log(carteActuelle);
-
-    if (carteRetournee = 1) {
-        if (cartePrecedente = carteActuelle) {
-            score++;
-        } else {
-            document.getElementById("card8").src = "../Images/cardBack";
-        }
-    } else {
-        carteRetournee = 0;
-        cartePrecedente = carteActuelle;
-        document.getElementById("card8").src = "../Images/cardBack";
-    }
+    document.getElementById("card8").src = cardValueJeu[7]
+    cardCheck("8")
 }
-
 function flipCard9() {
-    document.getElementById("card9").src = valeursCartesJeu[8];
+    document.getElementById("card9").src = cardValueJeu[8]
+    cardCheck("9")
 }
-
 function flipCard10() {
-    document.getElementById("card10").src = valeursCartesJeu[9];
+    document.getElementById("card10").src = cardValueJeu[9]
+    cardCheck("10")
 }
-
 function flipCard11() {
-    document.getElementById("card11").src = valeursCartesJeu[10];
+    document.getElementById("card11").src = cardValueJeu[10]
+    cardCheck("11")
 }
-
 function flipCard12() {
-    document.getElementById("card12").src = valeursCartesJeu[11];
+    document.getElementById("card12").src = cardValueJeu[11]
+    cardCheck("12")
 }
-
 function flipCard13() {
-    document.getElementById("card13").src = valeursCartesJeu[12];
+    document.getElementById("card13").src = cardValueJeu[12]
+    cardCheck("13")
 }
-
 function flipCard14() {
-    document.getElementById("card14").src = valeursCartesJeu[13];
+    document.getElementById("card14").src = cardValueJeu[13]
+    cardCheck("14")
 }
-
 function flipCard15() {
-    document.getElementById("card15").src = valeursCartesJeu[14];
+    document.getElementById("card15").src = cardValueJeu[14]
+    cardCheck("15")
 }
-
 function flipCard16() {
-    document.getElementById("card16").src = valeursCartesJeu[15];
+    document.getElementById("card16").src = cardValueJeu[15]
+    cardCheck("16")
 }
-
 function flipCard17() {
-    document.getElementById("card17").src = valeursCartesJeu[16];
+    document.getElementById("card17").src = cardValueJeu[16]
+    cardCheck("17")
 }
-
 function flipCard18() {
-    document.getElementById("card18").src = valeursCartesJeu[17];
+    document.getElementById("card18").src = cardValueJeu[17]
+    cardCheck("18")
 }
-
 function flipCard19() {
-    document.getElementById("card19").src = valeursCartesJeu[18];
+    document.getElementById("card19").src = cardValueJeu[18]
+    cardCheck("19")
 }
-
 function flipCard20() {
-    document.getElementById("card20").src = valeursCartesJeu[19];
+    document.getElementById("card20").src = cardValueJeu[19]
+    cardCheck("20")
 }
-
 function flipCard21() {
-    document.getElementById("card21").src = valeursCartesJeu[20];
+    document.getElementById("card21").src = cardValueJeu[20]
+    cardCheck("21")
 }
-
 function flipCard22() {
-    document.getElementById("card22").src = valeursCartesJeu[21];
+    document.getElementById("card22").src = cardValueJeu[21]
+    cardCheck("22")
 }
-
 function flipCard23() {
-    document.getElementById("card23").src = valeursCartesJeu[22];
+    document.getElementById("card23").src = cardValueJeu[22]
+    cardCheck("23")
 }
-
 function flipCard24() {
-    document.getElementById("card24").src = valeursCartesJeu[23];
+    document.getElementById("card24").src = cardValueJeu[23]
+    cardCheck("24")
 }
-
 function flipCard25() {
-    document.getElementById("card25").src = valeursCartesJeu[24];
+    document.getElementById("card25").src = cardValueJeu[24]
+    cardCheck("25")
 }
-
 function flipCard26() {
-    document.getElementById("card26").src = valeursCartesJeu[25];
+    document.getElementById("card26").src = cardValueJeu[25]
+    cardCheck("26")
 }
-
 function flipCard27() {
-    document.getElementById("card27").src = valeursCartesJeu[26];
+    document.getElementById("card27").src = cardValueJeu[26]
+    cardCheck("27")
 }
-
 function flipCard28() {
-    document.getElementById("card28").src = valeursCartesJeu[27];
+    document.getElementById("card28").src = cardValueJeu[27]
+    cardCheck("28")
 }
-
 function flipCard29() {
-    document.getElementById("card29").src = valeursCartesJeu[28];
+    document.getElementById("card29").src = cardValueJeu[28]
+    cardCheck("29")
 }
-
 function flipCard30() {
-    document.getElementById("card30").src = valeursCartesJeu[29];
+    document.getElementById("card30").src = cardValueJeu[29]
+    cardCheck("30")
 }
-
 function flipCard31() {
-    document.getElementById("card31").src = valeursCartesJeu[30];
+    document.getElementById("card31").src = cardValueJeu[30]
+    cardCheck("31")
 }
-
 function flipCard32() {
-    document.getElementById("card32").src = valeursCartesJeu[31];
+    document.getElementById("card32").src = cardValueJeu[31]
+    cardCheck("32")
 }
-
 function flipCard33() {
-    document.getElementById("card33").src = valeursCartesJeu[32];
+    document.getElementById("card33").src = cardValueJeu[32]
+    cardCheck("33")
 }
-
 function flipCard34() {
-    document.getElementById("card34").src = valeursCartesJeu[33];
+    document.getElementById("card34").src = cardValueJeu[33]
+    cardCheck("34")
 }
-
 function flipCard35() {
-    document.getElementById("card35").src = valeursCartesJeu[34];
+    document.getElementById("card35").src = cardValueJeu[34]
+    cardCheck("35")
 }
-
 function flipCard36() {
-    document.getElementById("card36").src = valeursCartesJeu[35];
+    document.getElementById("card36").src = cardValueJeu[35]
+    cardCheck("36")
 }
-
-let affichageScore = document.getElementById("divScore");
-let texteScore = score + "/18";
-affichageScore.innerHTML = texteScore;
