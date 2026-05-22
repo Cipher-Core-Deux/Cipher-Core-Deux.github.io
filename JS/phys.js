@@ -95,7 +95,7 @@ function cardCheck(cardNum) {
                 console.log(score)
                 preCard = 0
                 flip = 0
-                scoreCard = "Matches : " + score + "/ 18"
+                scoreCard = "Matches : " + score + " / 18"
                 affiche.innerHTML = scoreCard
             } else {
                 preCard = 0
@@ -104,7 +104,7 @@ function cardCheck(cardNum) {
                     document.getElementById("card" + cardNum).src = "../Images/cardBack.png"
                     document.getElementById("card" + preCardNum).src = "../Images/cardBack.png"
                 }, 1000);
-                scoreCard = "Matches : " + score + "/ 18"
+                scoreCard = "Matches : " + score + " / 18"
                 affiche.innerHTML = scoreCard
             }
         }
@@ -112,7 +112,7 @@ function cardCheck(cardNum) {
         flip = 1
         preCard = card
         preCardNum = cardNum
-        scoreCard = "Matches : " + score + "/ 18"
+        scoreCard = "Matches : " + score + " / 18"
         affiche.innerHTML = scoreCard
     }
 }
